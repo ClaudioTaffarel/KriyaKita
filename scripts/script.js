@@ -1,14 +1,18 @@
-// const grid = document.getElementById("destGrid");
+const colGridz = document.getElementById("colGrid");
 
-// destinations.forEach(dest => {
-//     const card = document.createElement("div");
-//     card.classList.add("destCardzz");
-//     card.innerHTML = `
-//         <img src="${dest.image}" alt="${dest.name}">
-//         <h3>${dest.name}</h3>
-//     `;
-//     card.onclick = () => {
-//         window.location.href = `destContz.html?id=${dest.id}`;
-//     };
-//     grid.appendChild(card);
-// });
+koleksiz.slice(0, 9).forEach(itemz => {
+    const cardz = document.createElement("div");
+    cardz.classList.add("colCardzz");
+
+    cardz.innerHTML = `
+        <img src="${itemz.image}" alt="${itemz.name}">
+        <h3>${itemz.name}</h3>
+        <p class="originzz">${itemz.originProvince}</p>
+    `;
+    
+    cardz.onclick = () => {
+        window.location.href = `colDetailz.html?id=${itemz.id}`;
+    };
+    
+    colGridz.appendChild(cardz);
+});

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LokaTrip</title>
+    <title>KriyaKita</title>
     <link rel="stylesheet" href="styling/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,6 @@
                 <a href="#about" class="navBtnzz">TENTANG KITA</a>
                 <a href="#collection" class="navBtnzz">KOLEKSI</a>
                 <a href="#stories" class="navBtnzz">CERITA</a>
-                <a href="#contacts" class="navBtnzz">KONTAK</a>
             </div>
         </nav>
     </header>
@@ -40,8 +39,6 @@
         </div>
 
         <img src="assets/blackFade.png" alt="fade" class="blackFadezz">
-        <!-- <img src="assets/cloud.png" alt="cloud" class="cloudzz cloudLeftzz">
-        <img src="assets/cloud2.png" alt="cloud" class="cloudzz cloudRightzz"> -->
     </section>
 
 
@@ -51,40 +48,23 @@
     </section>
 
     
-    <!-- ========= DESTINATIONZZ ========= -->
+    <!-- ========= COLLECTIONZ ========= -->
     <section id="collection" class="collectionSectionz">
-    <h2>Koleksi</h2>
+        <h2 class="collectionTitlezz">Koleksi</h2>
+        <p class="collectionDesczz">Telusuri kekayaan kriya Nusantara yang penuh makna dan filosofi.</p>
+        <div class="seeMoreWrapperzz">
+            <a href="seeMore.html" class="seeMoreBtnzz">Lihat Semua Koleksi</a>
+        </div>
+        <div class="colGridzz" id="colGrid"></div>
+    </section>
 
-    <!-- Search & Filter pindah ke sini -->
-    <div class="searchBoxzz">
-        <select class="filterPulauzz">
-            <option value="">All Islands</option>
-            <option value="sumatra">Sumatra</option>
-            <option value="java">Java</option>
-            <option value="kalimantan">Kalimantan</option>
-            <option value="sulawesi">Sulawesi</option>
-            <option value="papua">Papua</option>
-            <option value="bali-nusatenggara">Bali & Nusa Tenggara</option>
-            <option value="maluku">Maluku</option>
-        </select>
-
-        <input type="text" placeholder="Search Collections..." class="searchInputzz">
-    </div>
-
-    <div class="colGridzz" id="colGrid"></div>
-</section>
 
     <!-- ========= TRENDINGZ ========= -->
     <section id="stories" class="storySectionz">
         <h2>Cerita</h2>
     </section>
 
-    <!-- ========= CONTACTZ ========= -->
-    <section id="contact" class="contactSectionz">
-        <h2>Kontak</h2>
-    </section>
-
-    <!-- <script src="scripts/data.js"></script> -->
+    <script src="scripts/data.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>

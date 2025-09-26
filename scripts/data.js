@@ -1,25 +1,32 @@
-// const destinations = [
-//   {
-//     id: 1,
-//     name: "Danau Toba",
-//     image: "assets/toba.jpg",
-//     description: "Danau vulkanik terbesar di dunia, pemandangan indah.",
-//     price: "Rp 50.000"
-//   },
-//   {
-//     id: 2,
-//     name: "Borobudur",
-//     image: "assets/borobudur.jpg",
-//     description: "Candi Buddha terbesar di dunia.",
-//     price: "Rp 75.000"
-//   },
-//   {
-//     id: 3,
-//     name: "Raja Ampat",
-//     image: "assets/rajaampat.jpg",
-//     description: "Surga bawah laut di Papua Barat.",
-//     price: "Rp 150.000"
-//   }
-// ];
-
-
+const koleksiz = [
+  {
+    id: 1,
+    name: "Batik",
+    image: "../assets/Col_Jawa/batik.jpg",
+    originProvince: "Jawa Tengah & Yogyakarta",
+    originIsland: "Pulau Jawa",
+    philosophy: "Motif batik mencerminkan filosofi kehidupan, doa, serta harapan akan kebahagiaan, kesuburan, dan keberkahan.",
+    materials: "Kain mori, malam (lilin), pewarna alami atau sintetis.",
+    process: "Proses pembuatan batik meliputi menggambar motif dengan canting berisi malam, pewarnaan berulang sesuai pola, lalu perebusan untuk menghilangkan malam.",
+  },
+  {
+    id: 2,
+    name: "Ulos",
+    image: "../assets/Col_Sumatra/ulos.jpg",
+    originProvince: "Sumatra Utara (Batak)",
+    originIsland: "Pulau Sumatra",
+    philosophy: "Ulos melambangkan kehangatan, cinta kasih, dan restu orang tua. Sering diberikan dalam upacara pernikahan atau kelahiran.",
+    materials: "Benang kapas atau sutra yang ditenun secara tradisional.",
+    process: "Dibuat dengan teknik tenun manual di alat tenun tradisional. Proses ini memakan waktu lama dan penuh ketelitian.",
+  },
+  {
+    id: 3,
+    name: "Tenun Ikat Sumba",
+    image: "../assets/Col_Jawa/tenun.jpeg",
+    originProvince: "Sumba, Nusa Tenggara Timur",
+    originIsland: "Pulau Sumba",
+    philosophy: "Motif ikat Sumba mencerminkan hubungan manusia dengan alam, leluhur, dan kehidupan spiritual.",
+    materials: "Benang kapas yang diwarnai dengan pewarna alami seperti akar, daun, dan lumpur.",
+    process: "Pola digambar di benang dengan teknik ikat, lalu benang diwarnai sebelum ditenun. Hasilnya berupa kain dengan motif unik.",
+  }
+];
