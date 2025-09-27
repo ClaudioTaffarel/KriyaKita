@@ -15,12 +15,23 @@ body {
     overflow-x: hidden;
 }
 
-.homeSectionz, .aboutSectionz, .collectionSectionz, .storySectionz, .contactSectionz {
+.homeSectionz, .aboutSectionz {
     height: 110vh;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.collectionSectionz, .historySectionz {
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #bg-video {
@@ -165,18 +176,6 @@ body {
     margin-bottom: 20px;
 }
 
-.searchBoxzz {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 30px;
-    justify-content: center;
-}
-
-.collectionSectionz {
-    background: #000000;
-    color: white;
-}
-
 .colGridzz {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -219,11 +218,91 @@ body {
     margin-top: 5px;
 }
 
+.quoteSectionz {
+    background: url("../assets/BGquote.png") no-repeat center center/cover;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.quoteContentzz {
+    max-width: 800px;
+}
+
+.quoteTextzz {
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.quoteAuthorzz {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ccc;
+}
 
 
-/* ========= STORIES SECTIONZZ ========= */
+/* ========= HISTORY SECTIONZZ ========= */
 
-.storySectionz {
+.historySectionz {
     background: #000000;
     color: white;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.historySectionz h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.historyDesczz {
+    font-size: 16px;
+    color: #ccc;
+    max-width: 900px;
+    text-align: center;
+}
+
+.historyGridzz {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.historyItemzz {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.historyItemzz img {
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.historyTextzz {
+    max-width: 700px;
+}
+
+.historyTextzz h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.historyTextzz p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ccc;
 }

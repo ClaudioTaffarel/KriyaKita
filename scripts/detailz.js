@@ -6,7 +6,6 @@ const detailBoxz = document.getElementById("colDetailzz");
 
 if (itemz) {
   detailBoxz.innerHTML = `
-    <!-- HERO SECTION -->
     <div class="detailHerozz" style="background-image: url('${itemz.image}')">
       <div class="overlayzz"></div>
       <div class="heroTextzz">
@@ -16,20 +15,18 @@ if (itemz) {
       <img src="assets/blackFade.png" alt="fade" class="blackFadezz">
     </div>
 
-    <!-- FILOSOFI SECTION -->
-    <section class="filozz">
-      <div class="filoContentzz">
-        <div class="filoImgzz">
+    <section class="desczz">
+      <div class="descContentzz">
+        <div class="descImgzz">
           <img src="${itemz.image}" alt="${itemz.name}">
         </div>
-        <div class="filoTextzz">
-          <h2>Filosofi</h2>
-          <p>${itemz.philosophy}</p>
+        <div class="descTextzz">
+          <h2>Deskripsi dan Filosofi</h2>
+          <p>${itemz.description}</p>
         </div>
       </div>
     </section>
 
-    <!-- BAHAN & PROSES SECTION -->
     <section class="detailMorezz">
       <h2>Bahan</h2>
       <p>${itemz.materials}</p>

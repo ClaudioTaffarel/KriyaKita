@@ -1,10 +1,8 @@
-/* ========= SEE MORE STYLE ========= */
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -27,12 +25,12 @@ body {
   transition: 0.3s;
   z-index: 999;
 }
+
 .backBtnzz:hover {
   background: white;
   color: black;
 }
 
-/* Hero */
 .detailHerozz {
   position: relative;
   width: 100%;
@@ -43,7 +41,9 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding: 0 60px;
+  background-image: url('../assets/BGabout.png')
 }
+
 .detailHerozz .overlayzz {
   position: absolute;
   top: 0; left: 0;
@@ -51,16 +51,19 @@ body {
   background: rgba(0,0,0,0.6);
   pointer-events: none;
 }
+
 .heroTextzz {
   position: relative;
   z-index: 2;
   max-width: 800px;
 }
+
 .heroTextzz h1 {
   font-size: 60px;
   font-weight: 800;
   margin-bottom: 15px;
 }
+
 .heroTextzz p {
   font-size: 20px;
   color: #ddd;
@@ -71,6 +74,7 @@ body {
   display: flex;
   gap: 10px;
 }
+
 .filterPulauzz, .searchInputzz {
   padding: 8px 18px;
   border-radius: 20px;
@@ -80,8 +84,14 @@ body {
   font-size: 14px;
   outline: none;
 }
-.filterPulauzz option { background: black; color: white; }
-.searchInputzz::placeholder { color: rgba(255,255,255,0.7); }
+
+.filterPulauzz option {
+  background: black; color: white; 
+}
+
+.searchInputzz::placeholder {
+  color: rgba(255,255,255,0.7);
+}
 
 .searchBtnzz {
   padding: 8px 18px;
@@ -93,6 +103,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
+
 .searchBtnzz:hover {
   background: white;
   color: black;
@@ -105,7 +116,6 @@ body {
   z-index: 1;
 }
 
-/* Grid */
 .collectionSectionz {
   background: #000;
   padding: 60px 0;

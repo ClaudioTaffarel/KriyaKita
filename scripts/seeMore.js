@@ -3,7 +3,6 @@ const filterPulau = document.querySelector(".filterPulauzz");
 const searchInput = document.querySelector(".searchInputzz");
 const searchBtn = document.querySelector(".searchBtnzz");
 
-// render card
 function renderCards(data) {
   colGridAll.innerHTML = "";
   if (data.length === 0) {
@@ -29,7 +28,6 @@ function renderCards(data) {
   });
 }
 
-// filter + search
 function applyFilter() {
   const selectedPulau = filterPulau.value.toLowerCase();
   const keyword = searchInput.value.toLowerCase().trim();
@@ -45,8 +43,6 @@ function applyFilter() {
   renderCards(filtered);
 }
 
-// klik tombol cari
 searchBtn.addEventListener("click", applyFilter);
 
-// pertama load: tampil semua
 renderCards(koleksiz);
