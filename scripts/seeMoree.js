@@ -15,13 +15,13 @@ function renderCards(data) {
         cardz.classList.add("colCardzz");
 
         cardz.innerHTML = `
-        <img src="${itemz.image}" alt="${itemz.name}">
-        <h3>${itemz.name}</h3>
-        <p class="originzz">${itemz.originProvince}</p>
+            <img src="${itemz.image}" alt="${itemz.name}">
+            <h3>${itemz.name}</h3>
+            <p class="originzz">${itemz.originProvince}</p>
         `;
 
         cardz.onclick = () => {
-        window.location.href = `colDetailz.html?id=${itemz.id}`;
+            window.location.href = `colDetailz.html?id=${itemz.id}`;
         };
 
         colGridAll.appendChild(cardz);
