@@ -1,127 +1,127 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
-  min-height: 100vh;
-  background: black;
-  color: white;
+    min-height: 100vh;
+    background: black;
+    color: white;
 }
 
 .backBtnzz {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  padding: 8px 16px;
-  border: 1px solid white;
-  border-radius: 20px;
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-  background: rgba(255, 255, 255, 0.15);
-  transition: 0.3s;
-  z-index: 999;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: 0.3s;
+    z-index: 999;
 }
 
 .backBtnzz:hover {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
 }
 
 .detailHerozz {
-  position: relative;
-  width: 100%;
-  height: 60vh;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0 60px;
-  background-image: url('../assets/BGabout.png')
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 60px;
+    background-image: url('../assets/BGabout.png')
 }
 
 .detailHerozz .overlayzz {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.6);
-  pointer-events: none;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    pointer-events: none;
 }
 
 .heroTextzz {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
 }
 
 .heroTextzz h1 {
-  font-size: 60px;
-  font-weight: 800;
-  margin-bottom: 15px;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 15px;
 }
 
 .heroTextzz p {
-  font-size: 20px;
-  color: #ddd;
-  margin-bottom: 20px;
+    font-size: 20px;
+    color: #ddd;
+    margin-bottom: 20px;
 }
 
 .searchBoxzz {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .filterPulauzz, .searchInputzz {
-  padding: 8px 18px;
-  border-radius: 20px;
-  border: 1px solid white;
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  font-size: 14px;
-  outline: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+    outline: none;
 }
 
 .filterPulauzz option {
-  background: black; color: white; 
+    background: black; color: white; 
 }
 
 .searchInputzz::placeholder {
-  color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.7);
 }
 
 .searchBtnzz {
-  padding: 8px 18px;
-  border-radius: 20px;
-  border: 1px solid white;
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  font-size: 14px;
-  cursor: pointer;
-  transition: 0.3s;
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .searchBtnzz:hover {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
 }
 
 .blackFadezz {
-  position: absolute;
-  bottom: 0; left: 0;
-  width: 100%;
-  z-index: 1;
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .collectionSectionz {
-  background: #000;
-  padding: 60px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background: #000;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .colGridzz {
