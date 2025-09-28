@@ -44,6 +44,20 @@ body {
     z-index: -1;
 }
 
+.linezz {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #ffcc00, #ff6600);
+    border-radius: 2px;
+}
+
+.highlightzz {
+    background: linear-gradient(90deg, #ffcc00, #ff6600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
 /* ========= NAVBARZZ ========= */
 .headerzz {
     width: 100%;
@@ -118,8 +132,6 @@ body {
 }
 
 
-
-
 /* ========= ABOUT SECTIONZZ ========= */
 
 .aboutSectionz {
@@ -131,45 +143,26 @@ body {
 
 /* ========= COLLECTIONZ SECTIONZZ ========= */
 
-.collectionTitlezz {
-  font-size: 42px;
-  margin-bottom: 10px;
-}
-
-.collectionDesczz {
-  font-size: 18px;
-  color: #ccc;
-  margin-bottom: 25px;
-  text-align: center;
-  max-width: 700px;
-}
-
-.seeMoreWrapperzz {
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
-.seeMoreBtnzz {
-  padding: 10px 24px;
-  border-radius: 24px;
-  border: 1px solid white;
-  background: rgba(255,255,255,0.15);
-  color: white;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.seeMoreBtnzz:hover {
-  background: white;
-  color: black;
-}
-
 .collectionSectionz {
     background: #000000;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.collectionTitlezz {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.collectionDesczz {
+    font-size: 18px;
+    color: #ccc;
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 1.8;
 }
 
 .collectionSectionz h2 {
@@ -218,8 +211,28 @@ body {
     margin-top: 5px;
 }
 
+.seeMoreWrapperzz {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.seeMoreBtnzz {
+    padding: 10px 24px;
+    border-radius: 24px;
+    border: 1px solid white;
+    background: rgba(255,255,255,0.15);
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.seeMoreBtnzz:hover {
+    background: white;
+    color: black;
+}
+
 .quoteSectionz {
-    background: url("../assets/BGquote.png") no-repeat center center/cover;
+    background: url("../assets/BGquotes.png") no-repeat center center/cover;
     background-size: cover;
     color: white;
     height: 100vh;
@@ -257,6 +270,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .historySectionz h2 {
@@ -266,10 +280,12 @@ body {
 }
 
 .historyDesczz {
-    font-size: 16px;
+    font-size: 18px;
     color: #ccc;
-    max-width: 900px;
+    max-width: 800px;
     text-align: center;
+    margin: 20px auto;
+    line-height: 1.8;
 }
 
 .historyGridzz {
@@ -283,6 +299,7 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
+    position: relative;
 }
 
 .historyItemzz img {
@@ -294,6 +311,7 @@ body {
 
 .historyTextzz {
     max-width: 700px;
+    text-align: justify;
 }
 
 .historyTextzz h3 {
@@ -305,4 +323,23 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #ccc;
+}
+
+.decorImg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    max-width: 600px;
+    height: auto;
+    opacity: 0.6;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.decorLeft {
+    left: -550px;
+}
+
+.decorRight {
+    right: -550px;
 }

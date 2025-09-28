@@ -1,4 +1,4 @@
-const Koleksiz = [
+const koleksiz = [
     {
         id: 1,
         name: "Batik",

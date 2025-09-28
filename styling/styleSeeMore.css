@@ -11,6 +11,13 @@ body {
     color: white;
 }
 
+.highlightzz {
+    background: linear-gradient(90deg, #ffcc00, #ff6600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
 .backBtnzz {
     position: fixed;
     top: 20px;

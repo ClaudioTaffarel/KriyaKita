@@ -21,16 +21,16 @@ if (itemz) {
             <img src="${itemz.image}" alt="${itemz.name}">
             </div>
             <div class="descTextzz">
-            <h2>Deskripsi dan Filosofi</h2>
+            <h2><span class="highlightzz">Deskripsi dan Filosofi</span></h2>
             <p>${itemz.description}</p>
             </div>
         </div>
         </section>
 
         <section class="detailMorezz">
-        <h2>Bahan</h2>
+        <h2><span class="highlightzz">Bahan</span></h2>
         <p>${itemz.materials}</p>
-        <h2>Proses Pembuatan</h2>
+        <h2><span class="highlightzz">Proses Pembuatan</span></h2>
         <p>${itemz.process}</p>
         </section>
     `;
