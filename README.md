@@ -14,17 +14,20 @@ kreativitas, dan nilai-nilai lokal yang terkandung dalam setiap karya kerajinan.
 | 2   | Christopher Edgar Edmanata      | 535240053 |
 
 ## 📌 Struktur Project
--> index.html = Berisi struktur page utama
--> colDetailz.html = Mencakup wadah bagi setiap page Detail Koleksi
--> seeMore.html = Berisi struktur page Koleksi Kriya (menyeluruh)
--> Folder scripts = a. data.js = Berisi semua data koleksi kriya
-                    b. detailzz.js = Berisi logika untuk menyusun struktur colDetailz.html
-                    c. script.js = Berisi logika untuk menyusun colCards pada Collection Section
-                    d. seeMoree.js = Berisi logika FILTER dan SEARCH, serta penyusunan colCards pada seeMore.html
--> Folder styling = a. style.css = Berisi style untuk index.html
-                    b. styleDetailz.css = Berisi style untuk colDetailz.html
-                    c. styleSeeMore.css = Berisi style untuk seeMore.html
--> Folder assets = berisi semua image yang dipakai dalam penyusunan project
+- `index.html` : Berisi struktur page utama
+- `colDetailz.html` : Mencakup wadah bagi setiap page Detail Koleksi
+- `seeMore.html` : Berisi struktur page Koleksi Kriya (menyeluruh)
+- Folder `scripts` :
+  - `data.js` : Berisi semua data koleksi kriya
+  - `detailzz.js` : Berisi logika untuk menyusun struktur colDetailz.html
+  - `script.js` : Berisi logika untuk menyusun colCards pada Collection Section
+  - `seeMoree.js` : Berisi logika FILTER dan SEARCH, serta penyusunan colCards pada seeMore.html
+- Folder `styling` :
+  - `style.css` : Berisi style untuk index.html
+  - `styleDetailz.css` : Berisi style untuk colDetailz.html
+  - `styleSeeMore.css` : Berisi style untuk seeMore.html
+- Folder `assets` : berisi semua image yang dipakai dalam penyusunan project
+
 
 ## 📌 Cara Menjalankan Project
 1. Salin (clone) repositori ini ke komputer lokal Anda
