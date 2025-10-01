@@ -56,4 +56,6 @@ function applyFilter() {
 
 searchBtn.addEventListener("click", applyFilter);
 
+filterPulau.addEventListener("change", applyFilter);
+
 renderCards(koleksiz);
