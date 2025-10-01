@@ -12,26 +12,26 @@ if (itemz) {
             <h1>${itemz.name}</h1>
             <p>${itemz.originProvince} | ${itemz.originIsland}</p>
         </div>
-        <img src="assets/blackFade.png" alt="fade" class="blackFadezz">
+            <img src="/assets/blackFade.png" alt="fade" class="blackFadezz">
         </div>
 
         <section class="desczz">
-        <div class="descContentzz">
-            <div class="descImgzz">
-            <img src="${itemz.image}" alt="${itemz.name}">
+            <div class="descContentzz">
+                <div class="descImgzz">
+                    <img src="${itemz.image}" alt="${itemz.name}">
+                </div>
+                <div class="descTextzz">
+                    <h2><span class="highlightzz">Deskripsi dan Filosofi</span></h2>
+                    <p>${itemz.description}</p>
+                </div>
             </div>
-            <div class="descTextzz">
-            <h2><span class="highlightzz">Deskripsi dan Filosofi</span></h2>
-            <p>${itemz.description}</p>
-            </div>
-        </div>
         </section>
 
         <section class="detailMorezz">
-        <h2><span class="highlightzz">Bahan</span></h2>
-        <p>${itemz.materials}</p>
-        <h2><span class="highlightzz">Proses Pembuatan</span></h2>
-        <p>${itemz.process}</p>
+            <h2><span class="highlightzz">Bahan</span></h2>
+            <p>${itemz.materials}</p>
+            <h2><span class="highlightzz">Proses Pembuatan</span></h2>
+            <p>${itemz.process}</p>
         </section>
     `;
 } else {

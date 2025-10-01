@@ -33,10 +33,21 @@ function applyFilter() {
     const keyword = searchInput.value.toLowerCase().trim();
 
     const filtered = koleksiz.filter(item => {
-        const matchPulau = selectedPulau === "" 
-        || (item.originIsland && item.originIsland.toLowerCase().includes(selectedPulau));
-        const matchKeyword = keyword === "" 
-        || item.name.toLowerCase().includes(keyword);
+        let matchPulau = false;
+        let matchKeyword = false;
+
+        if (selectedPulau === "") {
+            matchPulau = true;
+        } else if (item.originIsland) {
+            matchPulau = item.originIsland.toLowerCase().includes(selectedPulau);
+        }
+
+        if (keyword === "") {
+            matchKeyword = true;
+        } else {
+            matchKeyword = item.name.toLowerCase().includes(keyword);
+        }
+
         return matchPulau && matchKeyword;
     });
 

@@ -131,6 +131,25 @@ body {
     pointer-events: none;
 }
 
+.userBtnzz {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.userIconzz {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.userBtnzz:hover .userIconzz {
+    content: url("../assets/user-black.png");
+}
+
+
 
 /* ========= ABOUT SECTIONZZ ========= */
 
@@ -179,7 +198,7 @@ body {
 }
 
 .colCardzz {
-    background: #111;
+    background: #2c2c2c;
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
@@ -212,7 +231,7 @@ body {
 }
 
 .seeMoreWrapperzz {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -337,9 +356,9 @@ body {
 }
 
 .decorLeft {
-    left: -550px;
+    left: -500px;
 }
 
 .decorRight {
-    right: -550px;
+    right: -480px;
 }
