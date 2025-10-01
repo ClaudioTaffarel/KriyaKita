@@ -628,5 +628,271 @@ const koleksiz = [
         description: "Payung Kertas dari Juwiring merupakan payung tradisional yang dihiasi motif cantik dan warna-warni. Payung ini berfungsi sebagai pelindung dari hujan atau panas sekaligus menjadi simbol estetika dan budaya lokal.",
         materials: "Bambu, kertas, cat atau pewarna, lem, benang, alat pemotong dan penghalus bambu",
         process: "Kerangka bambu dibentuk dan dibersihkan, lalu kertas dipasang menutupi rangka. Kertas dihias dengan motif dan warna-warni sesuai desain. Semua bagian dikencangkan dengan benang agar kokoh. Payung selesai dan siap digunakan sebagai pelindung atau dekorasi budaya."
-    }
+    },
+    {
+      id: 64,
+      name: "Blangkon Jogja",
+      image: "assets/Col_Jawa/64.png",
+      originProvince: "Daerah Istimewa Yogyakarta",
+      originIsland: "Jawa",
+      description:
+        "Blangkon Jogja adalah penutup kepala tradisional pria Jawa yang memiliki bentuk khas Yogyakarta. Lipatannya berbeda dengan blangkon Solo, lebih sederhana namun tetap sarat makna budaya.",
+      materials:
+        "Kain batik, kertas karton atau anyaman sebagai kerangka, jarum, benang, gunting",
+      process:
+        "Kain batik dipotong sesuai pola lalu dijahit dengan kerangka. Bentuk lipatan khas Yogyakarta disusun di bagian belakang. Setelah itu, blangkon dirapikan sehingga siap digunakan sebagai pelengkap busana adat.",
+    },
+    {
+      id: 65,
+      name: "Wayang Kulit Gagrag Yogyakarta",
+      image: "assets/Col_Jawa/65.png",
+      originProvince: "Daerah Istimewa Yogyakarta",
+      originIsland: "Jawa",
+      description:
+        "Wayang Kulit Gagrag Yogyakarta adalah wayang kulit dengan gaya khas Yogyakarta yang dikenal lebih halus dan detail. Setiap tokoh memiliki bentuk, warna, dan ornamen yang mencerminkan filosofi Jawa.",
+      materials:
+        "Kulit kerbau, kayu (untuk gapit), cat alami, pewarna tradisional, pisau tatah",
+      process:
+        "Kulit kerbau dikeringkan lalu dipahat menggunakan tatah sesuai pola tokoh. Setelah selesai, wayang diwarnai dengan cat alami khas. Gapit dari kayu dipasang sebagai pegangan. Wayang siap dimainkan dalam pertunjukan tradisional.",
+    },
+    {
+      id: 66,
+      name: "Topeng Malangan",
+      image: "assets/Col_Jawa/66.png",
+      originProvince: "Jawa Timur",
+      originIsland: "Jawa",
+      description:
+        "Topeng Malangan adalah topeng khas dari Malang, Jawa Timur. Topeng ini biasanya digunakan dalam seni pertunjukan Tari Topeng Malangan yang sarat dengan kisah Panji, menampilkan karakter baik dan buruk.",
+      materials: "Kayu pule, cat warna alami, kain",
+      process:
+        "Kayu pule dipahat sesuai karakter tokoh, kemudian dihaluskan dan dicat dengan warna-warna khas. Setelah itu topeng dihias dan siap dipakai dalam pertunjukan seni.",
+    },
+    {
+      id: 67,
+      name: "Topeng Barong",
+      image: "assets/Col_NusaMaluku/67.png",
+      originProvince: "Bali",
+      originIsland: "Nusa Tenggara & Maluku",
+      description:
+        "Topeng Barong adalah bagian dari seni tari tradisional Bali yang menggambarkan pertarungan antara kebaikan (Barong) dan kejahatan (Rangda). Topeng ini megah, penuh hiasan bulu, serta bernilai spiritual.",
+      materials: "Kayu, cat alami, bulu, kain tradisional",
+      process:
+        "Kayu dipahat membentuk wajah Barong, lalu diberi warna dan ornamen. Bagian tubuh dilengkapi bulu serta kain, menjadikannya siap dipakai dalam pertunjukan sakral.",
+    },
+    {
+      id: 68,
+      name: "Tenun Rangrang",
+      image: "assets/Col_NusaMaluku/68.png",
+      originProvince: "Bali",
+      originIsland: "Nusa Tenggara & Maluku",
+      description:
+        "Tenun Rangrang adalah kain tradisional Bali dengan motif geometris berlubang-lubang (rangrang berarti berongga). Biasanya digunakan sebagai selendang dalam upacara adat.",
+      materials: "Benang kapas, pewarna alami, alat tenun tradisional",
+      process:
+        "Benang dirangkai dalam alat tenun, kemudian ditenun membentuk pola khas rangrang. Proses pewarnaan dilakukan dengan pewarna alami untuk menghasilkan warna cerah dan tahan lama.",
+    },
+    {
+      id: 69,
+      name: "Tenun Buna",
+      image: "assets/Col_NusaMaluku/69.png",
+      originProvince: "Nusa Tenggara Timur",
+      originIsland: "Nusa Tenggara & Maluku",
+      description:
+        "Tenun Buna adalah kain khas Nusa Tenggara Timur dengan teknik songket, menggunakan motif berlapis yang rumit. Kain ini melambangkan status sosial dan budaya.",
+      materials: "Benang kapas, pewarna alami, alat tenun tradisional",
+      process:
+        "Benang diwarnai dengan pewarna alami, kemudian ditenun dengan teknik buna (songket) sehingga menghasilkan motif berlapis yang indah.",
+    },
+    {
+      id: 70,
+      name: "Anyaman Ketak",
+      image: "assets/Col_NusaMaluku/70.png",
+      originProvince: "Nusa Tenggara Barat",
+      originIsland: "Nusa Tenggara & Maluku",
+      description:
+        "Anyaman Ketak adalah kerajinan dari tanaman ketak (sejenis paku-pakuan) yang dianyam menjadi berbagai produk seperti tas, tempat makan, dan hiasan rumah.",
+      materials: "Tanaman ketak kering, pisau, benang",
+      process:
+        "Batang ketak dikeringkan lalu dibelah menjadi helai. Helai ketak dianyam membentuk pola, kemudian dijahit atau dikencangkan agar kokoh dan siap dipakai.",
+    },
+    {
+      id: 71,
+      name: "Saloi",
+      image: "assets/Col_NusaMaluku/71.png",
+      originProvince: "Maluku Utara",
+      originIsland: "Nusa Tenggara & Maluku",
+      description:
+        "Saloi adalah tas punggung tradisional masyarakat Halmahera Utara. Terbuat dari rotan, biasanya digunakan perempuan untuk pergi ke kebun. Bentuknya bundar mengerucut ke bawah.",
+      materials: "Rotan, pisau, alat pengikat alami",
+      process:
+        "Rotan dipotong dan dibersihkan, kemudian dianyam membentuk wadah berbentuk kerucut. Tali dipasang agar bisa dipanggul di punggung. Saloi siap digunakan sebagai tas tradisional maupun hiasan budaya.",
+    },
+    {
+      id: 72,
+      name: "Kerajinan Kulit Kerang",
+      image: "assets/Col_NusaMaluku/72.png",
+      originProvince: "Maluku",
+      originIsland: "Nusa Tenggara & Maluku",
+      description:
+        "Kerajinan Kulit Kerang dari Maluku memanfaatkan keindahan kerang laut yang melimpah. Biasanya dibuat menjadi hiasan rumah, perhiasan, hingga aksesori khas pesisir.",
+      materials: "Kulit kerang, lem, cat, pernis",
+      process:
+        "Kulit kerang dipilih dan dibersihkan, lalu disusun atau ditempel sesuai desain. Setelah itu diberi pernis agar mengkilap dan awet, siap dijadikan dekorasi atau perhiasan.",
+    },
+    {
+      id: 73,
+      name: "Upiya Karanji",
+      image: "assets/Col_Sulawesi/73.png",
+      originProvince: "Gorontalo",
+      originIsland: "Sulawesi",
+      description:
+        "Upiya Karanji adalah kain tradisional Gorontalo yang digunakan untuk pakaian adat. Motifnya khas, biasanya berupa pola geometris dan simbol budaya setempat.",
+      materials: "Benang kapas atau sutra, pewarna alami, alat tenun tradisional",
+      process:
+        "Benang diwarnai sesuai motif, kemudian ditenun secara manual dengan pola khas Upiya Karanji. Setelah selesai, kain siap digunakan untuk pakaian adat atau dekorasi budaya.",
+    },
+    {
+      id: 74,
+      name: "Tenun Sekomandi",
+      image: "assets/Col_Sulawesi/74.png",
+      originProvince: "Sulawesi Barat",
+      originIsland: "Sulawesi",
+      description:
+        "Tenun Sekomandi adalah kain tradisional Sulawesi Barat dengan motif khas daerah Mamuju. Biasanya dipakai untuk upacara adat dan pakaian formal tradisional.",
+      materials: "Benang kapas, pewarna alami, alat tenun tradisional",
+      process:
+        "Benang dirangkai dan ditenun membentuk motif Sekomandi. Pewarnaan dilakukan dengan pewarna alami agar kain tahan lama dan memiliki warna yang khas.",
+    },
+    {
+      id: 75,
+      name: "Kerajinan Kayu Eboni",
+      image: "assets/Col_Sulawesi/75.png",
+      originProvince: "Sulawesi Tengah",
+      originIsland: "Sulawesi",
+      description:
+        "Kerajinan Kayu Eboni adalah seni ukir khas Sulawesi Tengah, menggunakan kayu eboni yang keras dan gelap. Biasanya dibuat menjadi mebel, hiasan rumah, atau patung dekoratif.",
+      materials: "Kayu eboni, pahat, amplas, cat atau pernis",
+      process:
+        "Kayu eboni dipahat sesuai bentuk yang diinginkan, kemudian dihaluskan dengan amplas dan diberi pernis atau cat agar tahan lama dan terlihat elegan.",
+    },
+    {
+      id: 76,
+      name: "Kain Tenun Bentenan",
+      image: "assets/Col_Sulawesi/76.png",
+      originProvince: "Sulawesi Utara",
+      originIsland: "Sulawesi",
+      description:
+        "Kain Tenun Bentenan adalah kain tradisional Sulawesi Utara dengan motif khas daerah Manado. Tenunan ini biasanya dipakai untuk pakaian adat maupun acara resmi.",
+      materials: "Benang kapas atau sutra, pewarna alami, alat tenun tradisional",
+      process:
+        "Benang diwarnai dan ditenun mengikuti pola Bentenan. Hasilnya kain bercorak khas yang memiliki nilai budaya dan estetika tinggi.",
+    },
+    {
+      id: 77,
+      name: "Kendari Werk",
+      image: "assets/Col_Sulawesi/77.png",
+      originProvince: "Sulawesi Tenggara",
+      originIsland: "Sulawesi",
+      description:
+        "Kendari Werk adalah kerajinan tradisional dari Sulawesi Tenggara yang terkenal sebagai anyaman hiasan atau perabot rumah tangga. Motif dan tekniknya khas daerah Kendari.",
+      materials: "Bambu, rotan, alat anyam, benang",
+      process:
+        "Bambu dan rotan dibelah tipis, kemudian dianyam membentuk pola Kendari Werk. Setelah itu dikencangkan dan siap dijadikan hiasan atau perabot rumah tangga.",
+    },
+    {
+      id: 78,
+      name: "Lippa Sabe",
+      image: "assets/Col_Sulawesi/78.png",
+      originProvince: "Sulawesi Selatan",
+      originIsland: "Sulawesi",
+      description:
+        "Lippa Sabe adalah kain tradisional Sulawesi Selatan dengan motif geometris dan warna khas. Biasanya dipakai sebagai selendang, hiasan adat, atau kain upacara.",
+      materials: "Benang kapas, pewarna alami, alat tenun tradisional",
+      process:
+        "Benang diwarnai dan ditenun mengikuti pola Lippa Sabe. Hasil tenunan memiliki corak geometris yang khas dan digunakan dalam berbagai acara adat.",
+    },
+    {
+      id: 79,
+      name: "Patung Asmat",
+      image: "assets/Col_Papua/79.png",
+      originProvince: "Papua Barat",
+      originIsland: "Papua",
+      description:
+        "Patung Asmat adalah kerajinan kayu khas suku Asmat, Papua Barat. Patung ini biasanya digunakan untuk upacara adat dan sebagai simbol leluhur, memiliki ukiran rumit dan detail tinggi.",
+      materials: "Kayu, pisau tatah, cat alami",
+      process:
+        "Kayu dipahat sesuai motif tradisional Asmat, kemudian dihaluskan dan diberi cat alami. Patung siap digunakan untuk upacara adat atau koleksi seni.",
+    },
+    {
+      id: 80,
+      name: "Noken Jayapura",
+      image: "assets/Col_Papua/80.png",
+      originProvince: "Papua",
+      originIsland: "Papua",
+      description:
+        "Noken Jayapura adalah tas tradisional Papua yang terbuat dari serat kayu dan benang rajut. Biasanya digunakan untuk membawa hasil hutan, buah, atau keperluan sehari-hari.",
+      materials: "Serat kayu, benang, alat rajut sederhana",
+      process:
+        "Serat kayu dirajut secara manual menjadi tas berbentuk kantong, kemudian diberi pegangan agar mudah dipanggul di kepala atau bahu.",
+    },
+    {
+      id: 81,
+      name: "Noken Serat Anggrek Hutan",
+      image: "assets/Col_Papua/81.png",
+      originProvince: "Papua Tengah",
+      originIsland: "Papua",
+      description:
+        "Noken Serat Anggrek Hutan adalah kerajinan unik dari Papua Tengah. Terbuat dari serat anggrek hutan liar, noken ini berfungsi sebagai tas tradisional sekaligus simbol budaya.",
+      materials: "Serat anggrek hutan, benang, alat rajut",
+      process:
+        "Serat anggrek dikumpulkan dan dijalin menjadi bentuk tas tradisional. Hasil rajutan menjadi noken yang kokoh dan unik.",
+    },
+    {
+        id: 82,
+        name: "Koteka",
+        image: "assets/Col_Papua/82.png",
+        originProvince: "Papua Pegunungan",
+        originIsland: "Papua",
+        description:
+          "Koteka adalah penutup tubuh dari labu kering khas suku-suku di Lembah Baliem, Papua Pegunungan. Digunakan sebagai pakaian adat pria.",
+        materials: "Labu kering, tali rotan atau serat alam",
+        process:
+          "Labu dikeringkan, dibersihkan, kemudian diberi lubang dan tali untuk digunakan sebagai penutup tubuh. Koteka siap dipakai dalam aktivitas sehari-hari atau upacara adat.",
+    },
+    {
+        id: 83,
+        name: "Kerajinan Kulit Buaya",
+        image: "assets/Col_Papua/83.png",
+        originProvince: "Papua Selatan",
+        originIsland: "Papua",
+        description:
+          "Kerajinan Kulit Buaya dari Papua Selatan memanfaatkan kulit buaya untuk membuat tas, dompet, dan hiasan tradisional. Kerajinan ini terkenal karena kekuatan dan keindahannya.",
+        materials: "Kulit buaya, alat pemotong, lem, benang, alat penghalus",
+        process:
+          "Kulit buaya dibersihkan, dipotong sesuai desain, kemudian dijahit atau direkatkan untuk membentuk produk jadi seperti tas atau dompet.",
+    },
+    {
+        id: 84,
+        name: "Topi Arborek",
+        image: "assets/Col_Papua/84.png",
+        originProvince: "Papua Barat Daya",
+        originIsland: "Papua",
+        description:
+          "Topi Arborek adalah topi tradisional khas Raja Ampat, Papua Barat Daya. Biasanya dihias dengan manik-manik, bulu, dan anyaman rotan sebagai simbol identitas budaya.",
+        materials: "Rotan, manik-manik, bulu, benang",
+        process:
+          "Rotan dianyam membentuk topi, kemudian dihias dengan manik-manik dan bulu sesuai motif tradisional. Topi siap dipakai dalam upacara atau acara adat.",
+    },
+    {
+        id: 85,
+        name: "Batik Khas Raja Ampat",
+        image: "assets/Col_Papua/85.png",
+        originProvince: "Papua Barat Daya",
+        originIsland: "Papua",
+        description:
+          "Batik khas Raja Ampat memadukan motif lokal dengan teknik pewarnaan tradisional. Biasanya digunakan sebagai kain pakaian atau hiasan budaya.",
+        materials: "Kain katun, malam (lilin), pewarna alami, canting",
+        process:
+          "Motif batik digambar menggunakan canting dan malam, kemudian diwarnai dengan pewarna alami. Setelah proses pewarnaan selesai, kain dicuci dan siap digunakan.",
+    },
 ]
