@@ -193,8 +193,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 30px;
-    width: 90%;
-    max-width: 1200px;
+    justify-content: center;
 }
 
 .colCardzz {
@@ -205,6 +204,10 @@ body {
     transition: transform 0.3s;
     text-align: center;
     padding-bottom: 15px;
+    width: 380px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
 }
 
 .colCardzz:hover {
@@ -228,6 +231,7 @@ body {
     font-size: 14px;
     color: #aaa;
     margin-top: 5px;
+    flex-grow: 1;
 }
 
 .seeMoreWrapperzz {
