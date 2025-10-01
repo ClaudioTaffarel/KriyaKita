@@ -131,6 +131,25 @@ body {
     pointer-events: none;
 }
 
+.userBtnzz {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.userIconzz {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.userBtnzz:hover .userIconzz {
+    content: url("../assets/user-black.png");
+}
+
+
 
 /* ========= ABOUT SECTIONZZ ========= */
 
@@ -196,18 +215,21 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 30px;
-    width: 90%;
-    max-width: 1200px;
+    justify-content: center;
 }
 
 .colCardzz {
-    background: #111;
+    background: #2c2c2c;
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s;
     text-align: center;
     padding-bottom: 15px;
+    width: 380px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
 }
 
 .colCardzz:hover {
@@ -231,10 +253,11 @@ body {
     font-size: 14px;
     color: #aaa;
     margin-top: 5px;
+    flex-grow: 1;
 }
 
 .seeMoreWrapperzz {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -359,9 +382,9 @@ body {
 }
 
 .decorLeft {
-    left: -550px;
+    left: -500px;
 }
 
 .decorRight {
-    right: -550px;
+    right: -480px;
 }

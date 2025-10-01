@@ -42,13 +42,13 @@ body {
     position: relative;
     width: 100%;
     height: 60vh;
+    background-image: url('../assets/BGabout.png');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 0 60px;
-    background-image: url('../assets/BGabout.png')
 }
 
 .detailHerozz .overlayzz {
@@ -69,6 +69,7 @@ body {
     font-size: 60px;
     font-weight: 800;
     margin-bottom: 15px;
+    color: white;
 }
 
 .heroTextzz p {
@@ -77,43 +78,21 @@ body {
     margin-bottom: 20px;
 }
 
-.searchBoxzz {
-    display: flex;
-    gap: 10px;
-}
-
-.filterPulauzz, .searchInputzz {
-    padding: 8px 18px;
+.btnDetail {
     border-radius: 20px;
-    border: 1px solid white;
-    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    background: linear-gradient(90deg, #f44900, #ffcc00);
     color: white;
     font-size: 14px;
-    outline: none;
-}
-
-.filterPulauzz option {
-    background: black; color: white; 
-}
-
-.searchInputzz::placeholder {
-    color: rgba(255,255,255,0.7);
-}
-
-.searchBtnzz {
-    padding: 8px 18px;
-    border-radius: 20px;
-    border: 1px solid white;
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 35px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
 }
 
-.searchBtnzz:hover {
-    background: white;
-    color: black;
+.btnDetail:hover {
+    transform: scale(1.1);
 }
 
 .blackFadezz {
@@ -145,11 +124,11 @@ body {
     cursor: pointer;
     transition: transform 0.3s;
     text-align: center;
-    padding-bottom: 15px;
-    width: 380px;
-    height: 280px;
     display: flex;
     flex-direction: column;
+    width: 380px;
+    height: 280px;
+    padding-bottom: 15px;
 }
 
 .colCardzz:hover {
