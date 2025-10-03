@@ -142,3 +142,12 @@ body {
     color: #fff;
     text-align: justify;
 }
+
+#favImgzz {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#favImgzz:hover {
+    transform: scale(1.1);
+}
