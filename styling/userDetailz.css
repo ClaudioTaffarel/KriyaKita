@@ -126,8 +126,9 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 380px;
-    height: 280px;
+    width: 100%;
+    height: auto;
+    min-height: 280px;
     padding-bottom: 15px;
 }
 
@@ -154,3 +155,42 @@ body {
     margin-top: 5px;
     flex-grow: 1;
 }
+
+/* ========= MEDIA QUERIES ========= */
+
+@media (max-width: 992px) {
+    .colGridzz {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .detailHerozz {
+        padding: 0 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .colGridzz {
+        grid-template-columns: 1fr;
+    }
+
+    .collectionSectionz {
+        padding: 60px 20px;
+    }
+
+    .colCardzz {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .detailHerozz {
+        padding: 0 20px;
+    }
+    
+    .heroTextzz h1 {
+        font-size: 42px;
+    }
+
+}
+
+
