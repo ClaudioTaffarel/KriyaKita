@@ -1,4 +1,7 @@
 const colGridz = document.getElementById("colGrid");
+const hamburger = document.querySelector(".hamburgerzz");
+const navMenu = document.querySelector(".navContszz");
+const header = document.querySelector('.headerzz');
 
 koleksiz.slice(0, 9).forEach(itemz => {
     const cardz = document.createElement("div");
@@ -16,3 +19,22 @@ koleksiz.slice(0, 9).forEach(itemz => {
     
     colGridz.appendChild(cardz);
 });
+
+
+hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".navBtnzz").forEach(link => {
+    link.addEventListener("click", () => {
+        navMenu.classList.remove("active");
+    });
+});
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
