@@ -1,3 +1,5 @@
+/* ========= GENERAL ========= */
+
 * {
     margin: 0;
     padding: 0;
@@ -37,6 +39,8 @@ body {
     background: white;
     color: black;
 }
+
+/* ========= HERO SECTIONZ ========= */
 
 .detailHerozz {
     position: relative;
@@ -84,6 +88,8 @@ body {
     pointer-events: none;
 }
 
+/* ========= DESCRIPTION SECTIONZ (Deskripsi dan Filosofi) ========= */
+
 .desczz {
     background: #000;
     padding: 60px 20px;
@@ -121,6 +127,8 @@ body {
     line-height: 1.7;
     color: #fff;
 }
+
+/* ========= EXTRA DETAIL SECTIONZ (Bahan dan Proses Pembuatan) ========= */
 
 .detailMorezz {
     background-image: url(../assets/woodd.png);

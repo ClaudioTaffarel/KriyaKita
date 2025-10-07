@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    /* ========= LOGINN ========= */
     const loginForm = document.getElementById("loginFormm");
     if (loginForm) {
         loginForm.addEventListener("submit", (e) => {
@@ -23,14 +22,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (found) {
             localStorage.setItem("loggedInUser", JSON.stringify(found));
-            window.location.href = "mainPage.html"; // ✅ arahkan ke halaman utama
+            window.location.href = "mainPage.html";
         } else {
             alert("Username atau password salah!");
         }
         });
     }
 
-    /* ========= REGISTERR ========= */
     const registerForm = document.getElementById("registerFormm");
     if (registerForm) {
         registerForm.addEventListener("submit", (e) => {
@@ -42,7 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let users = JSON.parse(localStorage.getItem("users")) || [];
 
-        // cek username/gmail sudah ada
         if (users.some((u) => u.username === username)) {
             alert("Username sudah dipakai!");
             return;
@@ -61,7 +58,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    /* ========= USER DETAILZZZ ========= */
     if (user) {
         const navbarUsername = document.getElementById("navbarUsername");
         if (navbarUsername) {

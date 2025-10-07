@@ -44,8 +44,11 @@ if (itemz) {
 
 function setupFavoriteButton(id) {
     const heroText = document.querySelector(".heroTextzz");
+    const user = JSON.parse(localStorage.getItem("loggedInUser"));
+    if (!user) return;
 
-    let favKoleksi = JSON.parse(localStorage.getItem("favKoleksi")) || [];
+    const favKey = `favKoleksi_${user.username}`;
+    let favKoleksi = JSON.parse(localStorage.getItem(favKey)) || [];
     let isFav = favKoleksi.includes(id);
 
     const favBtn = document.createElement("div");
@@ -66,7 +69,8 @@ function setupFavoriteButton(id) {
             favKoleksi.push(id);
             isFav = true;
         }
-        localStorage.setItem("favKoleksi", JSON.stringify(favKoleksi));
+        localStorage.setItem(favKey, JSON.stringify(favKoleksi));
         favBtn.querySelector("#favImgzz").src = `/assets/${isFav ? 'bookmarkFill.png' : 'bookmark.png'}`;
     };
 }
+

@@ -1,3 +1,5 @@
+/* ========= GENERAL ========= */
+
 * {
     margin: 0;
     padding: 0;
@@ -38,23 +40,27 @@ body {
     color: black;
 }
 
+/* ========= HERO SECTIONZ ========= */
+
 .detailHerozz {
     position: relative;
     width: 100%;
     height: 60vh;
+    background-image: url('../assets/BGabout.png');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 0 60px;
-    background-image: url('../assets/BGabout.png')
 }
 
 .detailHerozz .overlayzz {
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
     background: rgba(0,0,0,0.6);
     pointer-events: none;
 }
@@ -69,6 +75,7 @@ body {
     font-size: 60px;
     font-weight: 800;
     margin-bottom: 15px;
+    color: white;
 }
 
 .heroTextzz p {
@@ -77,6 +84,25 @@ body {
     margin-bottom: 20px;
 }
 
+/* Tombol detail tambahan */
+.btnDetail {
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(90deg, #f44900, #ffcc00);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+}
+
+.btnDetail:hover {
+    transform: scale(1.1);
+}
+
+/* Search bar di halaman koleksi (ada di file 1) */
 .searchBoxzz {
     display: flex;
     gap: 10px;
@@ -93,7 +119,8 @@ body {
 }
 
 .filterPulauzz option {
-    background: black; color: white; 
+    background: black; 
+    color: white; 
 }
 
 .searchInputzz::placeholder {
@@ -118,10 +145,13 @@ body {
 
 .blackFadezz {
     position: absolute;
-    bottom: 0; left: 0;
+    bottom: 0; 
+    left: 0;
     width: 100%;
     z-index: 1;
 }
+
+/* ========= COLLECTION GRID (Favourites Feature) ========= */
 
 .collectionSectionz {
     padding: 60px 0;
@@ -145,11 +175,11 @@ body {
     cursor: pointer;
     transition: transform 0.3s;
     text-align: center;
-    padding-bottom: 15px;
-    width: 380px;
-    height: 280px;
     display: flex;
     flex-direction: column;
+    width: 380px;
+    height: 280px;
+    padding-bottom: 15px;
 }
 
 .colCardzz:hover {
