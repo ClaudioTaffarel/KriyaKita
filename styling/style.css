@@ -46,13 +46,6 @@ body {
   z-index: -1;
 }
 
-.linezz {
-  width: 80px;
-  height: 3px;
-  background: linear-gradient(90deg, #ffcc00, #ff6600);
-  border-radius: 2px;
-}
-
 .highlightzz {
   background: linear-gradient(90deg, #ffcc00, #ff6600);
   -webkit-background-clip: text;
@@ -179,6 +172,7 @@ body {
   gap: 1.5rem;
   padding: 0 5%;
   background: url("../assets/BGabout.png") no-repeat center center/cover;
+  scroll-margin-top: 15px;
   color: white;
 }
 
@@ -205,6 +199,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  scroll-margin-top: 100px;
 }
 
 .collectionTitlezz {
@@ -330,6 +325,7 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
+  scroll-margin-top: 60px;
 }
 
 .historySectionz h2 {
