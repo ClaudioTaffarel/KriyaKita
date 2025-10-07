@@ -8,27 +8,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- ========= NAVBARZZ ========= -->
     <header class="headerzz">
-        <nav class="navbarzz">
-            <div class="logozz">
-                <img src="assets/logo.PNG" alt="logo">
-            </div>
+    <nav class="navbarzz">
+        <div class="logozz">
+            <img src="assets/logo.PNG" alt="logo">
+        </div>
 
-            <div class="navContszz">
-                <a href="#home" class="navBtnzz">BERANDA</a>
-                <a href="#about" class="navBtnzz">TENTANG KAMI</a>
-                <a href="#collection" class="navBtnzz">KOLEKSI KRIYA</a>
-                <a href="#history" class="navBtnzz">SEJARAH</a>
-                <a href="userDetailzz.html" class="navBtnzz userBtnzz">
-                    <img src="assets/user.png" alt="User" class="userIconzz">
-                    <span id="navbarUsername"></span>
-                </a>
-            </div>
-        </nav>
-    </header>
+        <div class="navContszz">
+            <a href="#home" class="navBtnzz">BERANDA</a>
+            <a href="#about" class="navBtnzz">TENTANG KAMI</a>
+            <a href="#collection" class="navBtnzz">KOLEKSI KRIYA</a>
+            <a href="#history" class="navBtnzz">SEJARAH</a>
+            <a href="userDetailzz.html" class="navBtnzz userBtnzz">
+                <img src="assets/user.png" alt="User" class="userIconzz">
+                <span id="navbarUsername"></span>
+            </a>
+        </div>
+
+        <div class="hamburgerzz">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
 
 
     <!-- ========= HOMEE ========= -->
@@ -50,7 +55,7 @@
     <section id="about" class="aboutSectionz">
         <h2>Tentang Kami</h2>
         <p class="textaboutus">
-            <strong>KriyaKita</strong> adalah website yang memberikan informasi mengenai kerajinan tangan dari seluruh penjuru Nusantara. Kami percaya bahwa setiap karya memiliki cerita, nilai budaya, serta keunikannya masing-masing yang mencerminkan kearifan lokal Indonesia. Melalui KriyaKita, Anda dapat mengenal lebih dekat berbagai jenis kriya (kerajinan tangan), mulai dari anyaman, batik, ukiran kayu, tenun, hingga berbagai kerajinan berbahan daur ulang.
+            <strong>KriyaKita</strong> adalah website yang memberikan informasi mengenai kerajinan tangan dari seluruh penjuru Nusantara. Kami percaya bahwa setiap karya memiliki <span class="highlightzz">cerita, nilai budaya, serta keunikan</span> yang dapat mencerminkan kearifan lokal Indonesia. Melalui <strong>KriyaKita,</strong> Anda dapat mengenal lebih dekat berbagai jenis kriya (kerajinan tangan), mulai dari anyaman, batik, ukiran kayu, tenun, hingga berbagai kerajinan berbahan daur ulang lainnya.
         </p>
     </section>
 
@@ -134,4 +139,37 @@
     <script src="scripts/mainPage.js"></script>
     <script src="scripts/authh.js"></script>
 </body>
+
+<!-- ========= FOOTER ========= -->
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h3><span class="highlightzz">Kriya</span>Kita</h3>
+            <p>"Website informasi kerajinan tangan khas Nusantara dari berbagai provinsi dan pulau di Indonesia."</p>
+        </div>
+
+        <div class="footer-contact">
+            <h4><span class="highlightzz">Hubungi Kami</span></h4>
+            <p><i class="fas fa-envelope highlightzz"></i> kriyakita@gmail.com</p>
+            <p><i class="fas fa-phone highlightzz"></i> +62 822 8888 8889</p>
+            <p><i class="fas fa-map-marker-alt highlightzz"></i> Jakarta, Indonesia</p>
+            <p><i class="fas fa-globe highlightzz"></i> www.kriyakita.com</p>
+        </div>
+
+        <div class="footer-social">
+            <h4><span class="highlightzz">Ikuti Kami</span></h4>
+            <div class="social-media">
+                <a href="#" title="Instagram"><i class="fab fa-instagram highlightzz"></i></a>
+                <a href="#" title="Facebook"><i class="fab fa-facebook highlightzz"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter highlightzz"></i></a>
+                <a href="#" title="YouTube"><i class="fab fa-youtube highlightzz"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 KriyaKita - Website Informasi Kerajinan Nusantara</p>
+    </div>
+</footer>
 </html>
