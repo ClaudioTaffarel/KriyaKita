@@ -1,5 +1,18 @@
 /* ========= GENERAL ========= */
 
+:root {
+    --whitezz: #ffffff;
+    --blackzz: #000;
+    --blackLow: rgba(0, 0, 0, 0.7);
+    --grey: #666;
+    --greyLight: #ccc;
+    --greyLow: rgba(255, 255, 255, 0.299);
+    --greyLow2: rgba(255, 255, 255, 0.650);
+    --darkGrey: #333;
+    --red: #f44900;
+    --yeloo: #ffcc00;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +24,7 @@
 body {
   min-height: 100vh;
   position: relative;
-  color: white;
+  color: var(--whitezz);
   overflow-x: hidden;
 }
 
@@ -47,7 +60,7 @@ body {
 }
 
 .highlightzz {
-  background: linear-gradient(90deg, #ffcc00, #ff6600);
+  background: linear-gradient(90deg, var(--yeloo), var(--red));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -82,22 +95,22 @@ body {
 
 .navBtnzz {
   padding: 8px 18px;
-  border: 1px solid white;
+  border: 1px solid var(--whitezz);
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.299);
-  color: white;
+  background: var(--greyLow);
+  color: var(--whitezz);
   text-decoration: none;
   font-size: 14px;
   transition: 0.3s;
 }
 
 .navBtnzz:hover {
-  background: white;
-  color: black;
+  background: var(--whitezz);
+  color: var(--blackzz);
 }
 
 .headerzz.scrolled .navbarzz {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--greyLow);
   backdrop-filter: blur(10px);
 }
 
@@ -107,8 +120,8 @@ body {
 }
 
 .headerzz.scrolled .navBtnzz:hover {
-  background: rgba(255, 255, 255, 0.15);
-  color: white;
+  background: var(--greyLow);
+  color: var(--whitezz);
 }
 
 .userBtnzz {
@@ -126,15 +139,15 @@ body {
 }
 
 .userBtnzz:hover {
-  background-color: #333333;
-  color: white;
+  background-color: var(--darkGrey);
+  color: var(--whitezz);
 }
 
 /* ========= HOME SECTIONZZ ========= */
 
 .homeContentzz {
   text-align: center;
-  color: rgba(255, 255, 255, 0.725);
+  color: var(--greyLow2);
   transform: translateY(-40px);
 }
 
@@ -173,7 +186,7 @@ body {
   padding: 0 5%;
   background: url("../assets/BGabout.png") no-repeat center center/cover;
   scroll-margin-top: 15px;
-  color: white;
+  color: var(--whitezz);
 }
 
 .aboutSectionz h2 {
@@ -194,8 +207,8 @@ body {
 /* ========= COLLECTIONZ SECTIONZZ ========= */
 
 .collectionSectionz {
-  background: #000000;
-  color: white;
+  background: var(--blackzz);
+  color: var(--whitezz);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,7 +222,7 @@ body {
 
 .collectionDesczz {
   font-size: 18px;
-  color: #ccc;
+  color: var(--greyLight);
   max-width: 800px;
   text-align: center;
   margin: 20px auto;
@@ -229,7 +242,7 @@ body {
 }
 
 .colCardzz {
-  background: #2c2c2c;
+  background: var(--darkGrey);
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
@@ -256,12 +269,12 @@ body {
   margin-top: 10px;
   font-size: 22px;
   font-weight: 700;
-  color: #fff;
+  color: var(--whitezz);
 }
 
 .colCardzz p {
   font-size: 14px;
-  color: #aaa;
+  color: var(--greyLight);
   margin-top: 5px;
   flex-grow: 1;
 }
@@ -274,22 +287,22 @@ body {
 .seeMoreBtnzz {
   padding: 10px 24px;
   border-radius: 24px;
-  border: 1px solid white;
-  background: rgba(255, 255, 255, 0.15);
-  color: white;
+  border: 1px solid var(--whitezz);
+  background: var(--greyLow);
+  color: var(--whitezz);
   text-decoration: none;
   transition: 0.3s;
 }
 
 .seeMoreBtnzz:hover {
-  background: white;
-  color: black;
+  background: var(--whitezz);
+  color: var(--blackzz);
 }
 
 .quoteSectionz {
   background: url("../assets/BGquotes.png") no-repeat center center/cover;
   background-size: cover;
-  color: white;
+  color: var(--whitezz);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -312,14 +325,14 @@ body {
 .quoteAuthorzz {
   font-size: 20px;
   font-weight: 600;
-  color: #ccc;
+  color: var(--greyLight);
 }
 
 /* ========= HISTORY SECTIONZZ ========= */
 
 .historySectionz {
-  background: #000000;
-  color: white;
+  background: var(--blackzz);
+  color: var(--whitezz);
   padding: 80px 40px;
   display: flex;
   flex-direction: column;
@@ -336,7 +349,7 @@ body {
 
 .historyDesczz {
   font-size: 18px;
-  color: #ccc;
+  color: var(--greyLight);
   max-width: 800px;
   text-align: center;
   margin: 20px auto;
@@ -378,7 +391,7 @@ body {
 .historyTextzz p {
   font-size: 16px;
   line-height: 1.6;
-  color: #ccc;
+  color: var(--greyLight);
 }
 
 .decorImg {
@@ -403,8 +416,8 @@ body {
 /* ========= FOOTER SECTIONZZ ========= */
 
 .footer {
-  background-color: #213447;
-  color: #ecf0f1;
+  background-color: var(--darkGrey);
+  color: var(--greyLight);
   padding: 40px 0 0;
   margin-top: 0;
 }
@@ -464,8 +477,8 @@ body {
 
 .social-media a:hover .highlightzz {
   background: none;
-  -webkit-text-fill-color: white;
-  color: white;
+  -webkit-text-fill-color: var(--whitezz);
+  color: var(--whitezz);
 }
 
 .social-media a:hover {
@@ -480,7 +493,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid var(--greyLow);
   font-size: 14px;
 }
 
@@ -632,7 +645,7 @@ body {
 
   .hamburgerzz i {
     font-size: 28px;
-    color: white;
+    color: var(--whitezz);
   }
 
   .footer-container {
@@ -662,7 +675,7 @@ body {
 
   .hamburgerzz i:hover {
     transform: scale(1.1);
-    color: grey;
+    color: var(--grey);
   }
 
   .navContszz {
@@ -672,7 +685,7 @@ body {
     right: 0;
     width: 55%;
     padding-top: 65px;
-    background-color: #213447;
+    background-color: var(--darkGrey);
     flex-direction: column;
     z-index: -1;
   }
@@ -695,8 +708,8 @@ body {
   }
 
   .navBtnzz:hover {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
+    background: var(--greyLow);
+    color: var(--whitezz);
   }
 
   .userBtnzz {

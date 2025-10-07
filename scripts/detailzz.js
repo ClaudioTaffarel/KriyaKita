@@ -56,7 +56,7 @@ function setupFavoriteButton(id) {
     favBtn.innerHTML = `
         <p>Suka dengan karya ini? Tambahkan ke <span class="highlightzz">Favorit!</span></p>
         <br>
-        <img src="/assets/${isFav ? 'bookmarkFill.png' : 'bookmark.png'}" alt="favorit" id="favImgzz">
+        <img src="${isFav ? 'bookmarkFill.png' : 'bookmark.png'}" alt="favorit" id="favImgzz">
     `;
 
     heroText.appendChild(favBtn);
@@ -70,7 +70,7 @@ function setupFavoriteButton(id) {
             isFav = true;
         }
         localStorage.setItem(favKey, JSON.stringify(favKoleksi));
-        favBtn.querySelector("#favImgzz").src = `/assets/${isFav ? 'bookmarkFill.png' : 'bookmark.png'}`;
+        favBtn.querySelector("#favImgzz").src = `${isFav ? 'bookmarkFill.png' : 'bookmark.png'}`;
     };
 }
 
