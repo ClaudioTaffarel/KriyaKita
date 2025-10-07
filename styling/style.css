@@ -118,6 +118,26 @@ body {
   color: white;
 }
 
+.userBtnzz {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+.userIconzz {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.userBtnzz:hover {
+  background-color: #333333;
+  color: white;
+}
+
+
 /* ========= HOME SECTIONZZ ========= */
 
 .homeContentzz {
@@ -146,24 +166,6 @@ body {
   height: auto;
   z-index: 5;
   pointer-events: none;
-}
-
-.userBtnzz {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: 0.3s;
-}
-
-.userIconzz {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  transition: 0.3s;
-}
-
-.userBtnzz:hover .userIconzz {
-  content: url("../assets/user-black.png");
 }
 
 /* ========= ABOUT SECTIONZZ ========= */
