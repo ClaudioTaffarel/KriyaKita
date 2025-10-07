@@ -137,7 +137,6 @@ body {
   color: white;
 }
 
-
 /* ========= HOME SECTIONZZ ========= */
 
 .homeContentzz {
@@ -716,25 +715,41 @@ body {
   }
 
   .homeContentzz h1 {
-    font-size: 80px;
+    font-size: 60px;
+    line-height: 1.1;
   }
+
   .homeContentzz p {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
+
+  .aboutSectionz {
+    flex-direction: column;
+    height: auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
   .aboutSectionz h2 {
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
+
   .aboutSectionz p {
-    font-size: 1rem;
-    min-width: 400px;
+    font-size: 0.95rem;
+    max-width: 90%;
+    min-width: unset;
+    margin: 0 auto;
+    line-height: 1.7;
   }
+
   .collectionTitlezz {
-    font-size: 36px;
+    font-size: 32px;
   }
+
   .collectionDesczz {
-    max-width: 400px;
+    max-width: 360px;
   }
 
   .footer-container {

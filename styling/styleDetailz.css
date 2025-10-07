@@ -159,3 +159,116 @@ body {
 #favImgzz:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .detailHerozz {
+        height: 60vh;
+        padding: 0 30px;
+    }
+
+    .heroTextzz h1 {
+        font-size: 42px;
+    }
+
+    .heroTextzz p {
+        font-size: 18px;
+    }
+
+    .descContentzz {
+        gap: 30px;
+    }
+
+    .descImgzz img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .descTextzz h2 {
+        font-size: 24px;
+    }
+
+    .descTextzz p {
+        font-size: 16px;
+    }
+
+    .detailMorezz {
+        padding: 20px;
+    }
+
+    .detailMorezz h2 {
+        font-size: 22px;
+    }
+
+    .detailMorezz p {
+        font-size: 15px;
+    }
+
+    .backBtnzz {
+        font-size: 13px;
+        padding: 6px 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .detailHerozz {
+        height: 50vh;
+        padding: 0 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .heroTextzz {
+        max-width: 100%;
+    }
+
+    .heroTextzz h1 {
+        font-size: 34px;
+    }
+
+    .heroTextzz p {
+        font-size: 16px;
+    }
+
+    .descContentzz {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .descImgzz img {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+    }
+
+    .descTextzz h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .descTextzz p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .detailMorezz {
+        padding: 18px;
+        margin: 20px auto;
+    }
+
+    .detailMorezz h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .detailMorezz p {
+        font-size: 14px;
+    }
+
+    .backBtnzz {
+        top: 15px;
+        left: 15px;
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}

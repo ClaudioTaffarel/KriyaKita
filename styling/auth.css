@@ -107,16 +107,55 @@ form button:hover {
 @media (max-width: 768px) {
     .authWrapperzz {
         width: 90%;
-        padding: 20px;
+        padding: 25px;
+    }
+
+    .authWrapperzz h2 {
+        font-size: 20px;
     }
 
     form input {
         font-size: 13px;
-        padding: 10px;
+        padding: 10px 12px;
     }
 
     form button {
         padding: 10px 35px;
         font-size: 13px;
+    }
+
+    .switchLink {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 600px) {
+    .authWrapperzz {
+        width: 95%;
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .logoContainerr {
+        margin-bottom: 15px;
+    }
+
+    .authWrapperzz h2 {
+        font-size: 18px;
+    }
+
+    form input {
+        font-size: 12.5px;
+        padding: 9px 10px;
+    }
+
+    form button {
+        font-size: 12.5px;
+        padding: 9px 28px;
+    }
+
+    .switchLink {
+        font-size: 12px;
+        margin-top: 12px;
     }
 }
