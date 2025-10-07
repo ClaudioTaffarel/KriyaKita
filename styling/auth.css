@@ -1,3 +1,16 @@
+:root {
+    --whitezz: #ffffff;
+    --blackzz: #000;
+    --blackLow: rgba(0, 0, 0, 0.7);
+    --grey: #666;
+    --greyLight: #ccc;
+    --greyLow: rgba(255, 255, 255, 0.299);
+    --greyLow2: rgba(255, 255, 255, 0.650);
+    --darkGrey: #333;
+    --red: #f44900;
+    --yeloo: #ffcc00;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    color: white;
+    color: var(--whitezz);
     overflow: hidden;
 }
 
@@ -26,15 +39,15 @@ body {
 }
 
 .authWrapperzz {
-    background: #fff;
+    background: var(--whitezz);
     border-radius: 16px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 25px var(--blackLow);
     width: 400px;
     max-width: 90%;
     padding: 40px;
     position: relative;
     z-index: 1;
-    color: #000;
+    color: var(--blackzz);
     text-align: center;
 }
 
@@ -53,29 +66,29 @@ body {
 .authWrapperzz h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #000;
+    color: var(--blackzz);
 }
 
 form input {
-    background: #f0f0f0;
+    background: var(--whitezzLow);
     border: none;
     padding: 12px 15px;
     margin: 10px 0;
     border-radius: 8px;
-    color: #000;
+    color: var(--blackzz);
     width: 100%;
     font-size: 14px;
 }
 
 form input::placeholder {
-    color: #666;
+    color: var(--grey);
 }
 
 form button {
     border-radius: 20px;
     border: none;
-    background: linear-gradient(90deg, #f44900, #ffcc00);
-    color: white;
+    background: linear-gradient(90deg, var(--red), var(--yeloo));
+    color: var(--whitezz);
     font-size: 14px;
     font-weight: bold;
     padding: 12px 45px;
@@ -91,11 +104,11 @@ form button:hover {
 .switchLink {
     margin-top: 15px;
     font-size: 14px;
-    color: #333;
+    color: var(--darkGrey);
 }
 
 .switchLink a {
-    color: #f44900;
+    color: var(--red);
     font-weight: bold;
     text-decoration: none;
 }
