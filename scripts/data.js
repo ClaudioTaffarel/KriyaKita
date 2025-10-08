@@ -37,7 +37,7 @@ const koleksiz = [
         originIsland: "Sumatra",
         description: "Ulos merupakan sebutan bagi kain tenun dari Batak, Sumatera Utara. Ulos bercirikan motif geometris. Ada berbagai jenis Ulos, di antaranya gorga. Gorga adalah selendang dengan jurai-jurai benang pada ujung-ujungnya. Gorga digunakan sebagai perlengkapan busana adat Batak dan syal. Gorga sering pula ditemukan sebagai hiasan dinding. Ulos, kain tradisional Batak, melambangkan kasih sayang, perlindungan, dan hubungan antaranggota keluarga. Motifnya memiliki makna khusus untuk upacara pernikahan, kelahiran, atau kematian, serta menjadi simbol doa, hormat, dan ikatan antar generasi.",
         materials: "Benang, daun-daunan sebagai pewarna alami, serat dan daun serai, nasi untuk proses pelumuran, kuas dari ijuk, balok kayu, hiasan tambahan",
-        process: "Proses pembuatan ulos dimulai dengan pembuatan benang, di mana kapas digulung agar mengembang dan kemudian dipintal menjadi benang melalui proses sorha. Selanjutnya, benang diwarnai menggunakan daun-daunan yang telah difermentasi untuk memperoleh warna merah atau hitam. Sebelum ditenun, motif khusus dibuat dengan teknik gatip, yaitu mengikat benang putih dengan serat dan daun serai. Benang kemudian menjalani proses unggas, yaitu dilumuri nasi dan digosok dengan kuas ijuk agar cemerlang dan kenyal. Setelah itu, benang diuntaikan menggunakan alat ani agar siap ditenun. Tahap berikutnya adalah tonun, di mana benang ditenun membentuk sehelai ulos. Proses terakhir adalah sirat, penambahan hiasan pengikat motif gorga yang mempercantik dan menyempurnakan kain tradisional ini.",
+        process: "Pertama, dilakukan pembuatan benang, di mana kapas digulung agar mengembang dan kemudian dipintal menjadi benang melalui proses sorha. Selanjutnya, benang diwarnai menggunakan daun-daunan yang telah difermentasi untuk memperoleh warna merah atau hitam. Sebelum ditenun, motif khusus dibuat dengan teknik gatip, yaitu mengikat benang putih dengan serat dan daun serai. Benang kemudian menjalani proses unggas, yaitu dilumuri nasi dan digosok dengan kuas ijuk agar cemerlang dan kenyal. Setelah itu, benang diuntaikan menggunakan alat ani agar siap ditenun. Tahap berikutnya adalah tonun, di mana benang ditenun membentuk sehelai ulos. Proses terakhir adalah sirat, penambahan hiasan pengikat motif gorga yang mempercantik dan menyempurnakan kain tradisional ini.",
     },
     {
         id: 5,
@@ -55,9 +55,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/6.png",
         originProvince: "Sumatra Selatan",
         originIsland: "Sumatra",
-        description: "Songket Palembang adalah kain tenun tradisional khas Sumatera Selatan yang bercirikan motif emas atau perak yang disisipkan di antara benang dasar. Songket digunakan sebagai busana adat, sarung, atau hiasan upacara penting seperti pernikahan dan penyambutan tamu. Songket Palembang melambangkan kemewahan, keanggunan, dan status sosial, sekaligus sebagai simbol doa dan harapan agar pemakainya memperoleh keberkahan, keharmonisan, dan kemakmuran dalam kehidupan.",
+        description: "Songket Palembang bercirikan motif emas atau perak yang disisipkan di antara benang dasar. Songket digunakan sebagai busana adat, sarung, atau hiasan upacara penting seperti pernikahan dan penyambutan tamu. Songket Palembang melambangkan kemewahan, keanggunan, dan status sosial, sekaligus sebagai simbol doa dan harapan agar pemakainya memperoleh keberkahan, keharmonisan, dan kemakmuran dalam kehidupan.",
         materials: "Benang katun atau sutra, benang emas atau perak, alat tenun tradisional (gedokan), jarum atau alat penyisip benang logam, pewarna alami atau sintetis",
-        process: "Proses pembuatan Songket Palembang dimulai dengan pemilihan benang katun atau sutra berkualitas sebagai dasar kain. Benang kemudian diwarnai sesuai motif yang diinginkan. Selanjutnya, motif emas atau perak disisipkan menggunakan alat khusus selama proses menenun di atas alat tenun tradisional (gedokan). Penyisipan benang logam dilakukan dengan hati-hati untuk membentuk pola geometris atau flora yang khas. Setelah tenunan selesai, kain dirapikan dan permukaannya dihaluskan. Songket yang jadi siap digunakan sebagai busana adat, pelengkap upacara, atau koleksi seni tradisional."
+        process: "Memilik benang katun atau sutra berkualitas sebagai dasar kain. Benang kemudian diwarnai sesuai motif yang diinginkan. Selanjutnya, motif emas atau perak disisipkan menggunakan alat khusus selama proses menenun di atas alat tenun tradisional (gedokan). Penyisipan benang logam dilakukan dengan hati-hati untuk membentuk pola geometris atau flora yang khas. Setelah tenunan selesai, kain dirapikan dan permukaannya dihaluskan. Songket yang jadi siap digunakan sebagai busana adat, pelengkap upacara, atau koleksi seni tradisional."
     },
     {
         id: 7,
@@ -65,9 +65,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/7.png",
         originProvince: "Sumatra Selatan",
         originIsland: "Sumatra",
-        description: "Kain Jumputan adalah kain tradisional dari Sumatera Selatan yang dibuat dengan teknik ikat celup. Motifnya khas, biasanya berupa titik-titik, garis, atau pola geometris yang muncul dari proses pengikatan benang sebelum dicelup pewarna. Kain Jumputan melambangkan kreativitas, identitas budaya, dan keterampilan tangan masyarakat, sekaligus digunakan dalam upacara adat, pakaian sehari-hari, atau sebagai hiasan rumah.",
+        description: "Kain Jumputan dibuat dengan teknik ikat celup. Motifnya khas, biasanya berupa titik-titik, garis, atau pola geometris yang muncul dari proses pengikatan benang sebelum dicelup pewarna. Kain Jumputan melambangkan kreativitas, identitas budaya, dan keterampilan tangan masyarakat, sekaligus digunakan dalam upacara adat, pakaian sehari-hari, atau sebagai hiasan rumah.",
         materials: "Kain katun atau sutra, tali atau benang untuk mengikat, pewarna alami atau sintetis, wadah untuk pencelupan, alat pengeringan",
-        process: "Proses pembuatan Kain Jumputan dimulai dengan pemilihan kain katun atau sutra sebagai bahan dasar. Kemudian kain diikat pada beberapa bagian menggunakan tali atau benang untuk menahan warna agar terbentuk motif tertentu. Selanjutnya kain dicelup ke dalam pewarna alami atau sintetis, beberapa kali sesuai motif dan warna yang diinginkan. Setelah pencelupan selesai, kain dijemur hingga kering, kemudian ikatan dilepas untuk menampilkan pola unik. Kain siap digunakan sebagai pakaian adat, pelengkap upacara, atau hiasan tradisional."
+        process: "Pertama, memilih kain katun atau sutra sebagai bahan dasar. Kemudian kain diikat pada beberapa bagian menggunakan tali atau benang untuk menahan warna agar terbentuk motif tertentu. Selanjutnya kain dicelup ke dalam pewarna alami atau sintetis, beberapa kali sesuai motif dan warna yang diinginkan. Setelah pencelupan selesai, kain dijemur hingga kering, kemudian ikatan dilepas untuk menampilkan pola unik. Kain siap digunakan sebagai pakaian adat, pelengkap upacara, atau hiasan tradisional."
     },
     {
         id: 8,
@@ -75,9 +75,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/8.png",
         originProvince: "Sumatra Selatan",
         originIsland: "Sumatra",
-        description: "Batik Sumatera Selatan adalah kain tradisional yang dihiasi motif khas seperti flora, fauna, dan geometris dengan pengaruh budaya lokal dan Melayu. Batik ini digunakan sebagai busana adat, pakaian resmi, atau hiasan, dan melambangkan identitas budaya, nilai estetika, serta filosofi kehidupan seperti keharmonisan, kesuburan, dan keberkahan bagi pemakainya.",
+        description: "Batik Sumatera memiliki motif khas seperti flora, fauna, dan geometris dengan pengaruh budaya lokal dan Melayu. Batik ini digunakan sebagai busana adat, pakaian resmi, atau hiasan, dan melambangkan identitas budaya, nilai estetika, serta filosofi kehidupan seperti keharmonisan, kesuburan, dan keberkahan bagi pemakainya.",
         materials: "Kain katun atau sutra, malam (lilin) untuk membatik, canting atau cap batik, pewarna alami atau sintetis, wadah pencelupan, alat pengeringan",
-        process: "Proses pembuatan Batik Sumatera Selatan dimulai dengan pemilihan kain katun atau sutra berkualitas. Kemudian motif digambar pada kain menggunakan canting atau cap batik dengan lilin (malam) sebagai penahan warna. Setelah itu kain dicelup ke dalam pewarna alami atau sintetis sesuai warna yang diinginkan. Proses pewarnaan dan penutupan lilin dapat dilakukan beberapa kali untuk motif berlapis. Setelah pewarnaan selesai, lilin dilelehkan atau dicuci, dan kain dijemur hingga kering. Batik siap digunakan sebagai pakaian adat, busana resmi, atau koleksi seni tradisional."
+        process: "Pertama, dilakukan pemilihan kain katun atau sutra berkualitas. Kemudian motif digambar pada kain menggunakan canting atau cap batik dengan lilin (malam) sebagai penahan warna. Setelah itu kain dicelup ke dalam pewarna alami atau sintetis sesuai warna yang diinginkan. Proses pewarnaan dan penutupan lilin dapat dilakukan beberapa kali untuk motif berlapis. Setelah pewarnaan selesai, lilin dilelehkan atau dicuci, dan kain dijemur hingga kering. Batik siap digunakan sebagai pakaian adat, busana resmi, atau koleksi seni tradisional."
     },
     {
         id: 9,
@@ -85,9 +85,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/9.png",
         originProvince: "Sumatra Selatan",
         originIsland: "Sumatra",
-        description: "Tikar Purun Pedamaran adalah anyaman tradisional dari purun yang berasal dari Kabupaten Ogan Komering Ilir, Sumatera Selatan. Tikar ini digunakan sebagai alas duduk, dekorasi rumah, atau pelengkap upacara adat, dan melambangkan kesederhanaan, kreativitas, serta hubungan harmonis antara manusia dan alam sekitar.",
+        description: "Anyaman tradisional dari purun yang berasal dari Kabupaten Ogan Komering Ilir, Sumatera Selatan. Tikar ini digunakan sebagai alas duduk, dekorasi rumah, atau pelengkap upacara adat, dan melambangkan kesederhanaan, kreativitas, serta hubungan harmonis antara manusia dan alam sekitar.",
         materials: "Purun atau eceng gondok, pisau atau gunting untuk memotong purun, tali atau benang untuk mengikat, alat pengeringan dan penekan anyaman",
-        process: "Proses pembuatan Tikar Purun Pedamaran dimulai dengan pemilihan purun yang berkualitas, lalu dibersihkan dan dikeringkan. Purun kemudian dipotong sesuai ukuran dan disiapkan untuk dianyam. Selanjutnya, anyaman dibuat dengan pola tertentu, biasanya secara horizontal dan vertikal, dan diikat dengan tali atau benang untuk menjaga kekokohan. Setelah anyaman selesai, tikar ditekan agar padat dan dijemur hingga kering. Tikar Purun yang jadi siap digunakan sebagai alas duduk, dekorasi rumah, atau pelengkap upacara adat."
+        process: "Pertama, memilih purun yang berkualitas, lalu dibersihkan dan dikeringkan. Purun kemudian dipotong sesuai ukuran dan disiapkan untuk dianyam. Selanjutnya, anyaman dibuat dengan pola tertentu, biasanya secara horizontal dan vertikal, dan diikat dengan tali atau benang untuk menjaga kekokohan. Setelah anyaman selesai, tikar ditekan agar padat dan dijemur hingga kering. Tikar Purun yang jadi siap digunakan sebagai alas duduk, dekorasi rumah, atau pelengkap upacara adat."
     },
     {
         id: 10,
@@ -95,7 +95,7 @@ const koleksiz = [
         image: "assets/Col_Sumatra/10.png",
         originProvince: "Sumatra Barat",
         originIsland: "Sumatra",
-        description: "Bordir Sumatera Barat adalah seni menghias kain dengan benang berwarna untuk membentuk motif khas Minangkabau, seperti flora, fauna, atau simbol budaya. Bordir digunakan pada pakaian adat, selendang, hiasan rumah, atau aksesori, dan melambangkan keindahan, keterampilan tangan, serta identitas budaya Minangkabau.",
+        description: "Hasil dari seni menghias kain dengan benang berwarna untuk membentuk motif khas Minangkabau, seperti flora, fauna, atau simbol budaya. Bordir digunakan pada pakaian adat, selendang, hiasan rumah, atau aksesori, dan melambangkan keindahan, keterampilan tangan, serta identitas budaya Minangkabau.",
         materials: "Kain katun atau sutra, benang bordir warna-warni, jarum bordir, pola desain, hoop atau bingkai penahan kain",
         process: "Proses pembuatan bordir dimulai dengan menyiapkan kain dan memasangnya pada hoop atau bingkai agar kain kencang. Selanjutnya, pola motif digambar atau ditempel pada kain sebagai panduan. Benang bordir kemudian dijahit mengikuti pola menggunakan jarum dengan teknik tusuk tertentu seperti tusuk datar, tusuk silang, atau tusuk rantai. Setelah seluruh motif selesai dijahit, kain dibersihkan dari sisa pola atau tanda panduan. Bordir siap digunakan sebagai pakaian adat, hiasan rumah, atau aksesori tradisional."
     },
@@ -107,7 +107,7 @@ const koleksiz = [
         originIsland: "Sumatra",
         description: "Sulaman Sumatera Barat adalah seni menghias kain dengan benang untuk menciptakan motif khas Minangkabau, seperti bunga, daun, atau motif geometris. Sulaman biasanya digunakan pada pakaian adat, taplak, hiasan rumah, atau aksesori, dan melambangkan keindahan, ketelitian, serta identitas budaya Minangkabau.",
         materials: "Kain katun atau sutra, benang sulam warna-warni, jarum sulam, pola desain, hoop atau bingkai penahan kain",
-        process: "Proses pembuatan sulaman dimulai dengan menyiapkan kain dan memasangnya pada hoop atau bingkai agar kain tetap kencang. Pola motif digambar atau ditempel pada kain sebagai panduan. Benang sulam kemudian dijahit mengikuti pola menggunakan berbagai teknik tusuk, seperti tusuk datar, tusuk rantai, atau tusuk satin, untuk membentuk motif yang diinginkan. Setelah motif selesai, kain dibersihkan dari sisa pola atau tanda panduan. Sulaman siap digunakan sebagai hiasan pakaian adat, taplak, atau aksesori tradisional."
+        process: "Pertama, menyiapkan kain dan memasangnya pada hoop atau bingkai agar kain tetap kencang. Pola motif digambar atau ditempel pada kain sebagai panduan. Benang sulam kemudian dijahit mengikuti pola menggunakan berbagai teknik tusuk, seperti tusuk datar, tusuk rantai, atau tusuk satin, untuk membentuk motif yang diinginkan. Setelah motif selesai, kain dibersihkan dari sisa pola atau tanda panduan. Sulaman siap digunakan sebagai hiasan pakaian adat, taplak, atau aksesori tradisional."
     },
     {
         id: 12,
@@ -115,9 +115,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/12.png",
         originProvince: "Sumatra Barat",
         originIsland: "Sumatra",
-        description: "Songket Koto Gadang adalah kain tenun tradisional khas Minangkabau, Sumatera Barat, yang dihiasi benang emas atau perak membentuk motif khas seperti flora, fauna, dan geometris. Songket ini digunakan sebagai busana adat, sarung, atau hiasan upacara, serta melambangkan kemewahan, keanggunan, dan status sosial, sekaligus sebagai simbol doa dan harapan bagi pemakainya.",
+        description: "Kain tenun tradisional khas Minangkabau, Sumatera Barat, yang dihiasi benang emas atau perak membentuk motif khas seperti flora, fauna, dan geometris. Songket ini digunakan sebagai busana adat, sarung, atau hiasan upacara, serta melambangkan kemewahan, keanggunan, dan status sosial, sekaligus sebagai simbol doa dan harapan bagi pemakainya.",
         materials: "Benang katun atau sutra, benang emas atau perak, alat tenun tradisional (gedokan), jarum atau alat penyisip benang logam, pewarna alami atau sintetis",
-        process: "Proses pembuatan Songket Koto Gadang dimulai dengan pemilihan benang katun atau sutra berkualitas sebagai bahan dasar. Benang kemudian diwarnai sesuai motif yang diinginkan. Selanjutnya, motif emas atau perak disisipkan menggunakan alat khusus selama proses menenun di atas alat tenun tradisional (gedokan). Penyisipan benang logam dilakukan dengan hati-hati untuk membentuk pola khas Minangkabau. Setelah tenunan selesai, kain dirapikan dan permukaannya dihaluskan. Songket siap digunakan sebagai busana adat, pelengkap upacara, atau koleksi seni tradisional."
+        process: "Siapkan benang, lalu benang kemudian diwarnai sesuai motif yang diinginkan. Selanjutnya, motif emas atau perak disisipkan menggunakan alat khusus selama proses menenun di atas alat tenun tradisional (gedokan). Penyisipan benang logam dilakukan dengan hati-hati untuk membentuk pola khas Minangkabau. Setelah tenunan selesai, kain dirapikan dan permukaannya dihaluskan. Songket siap digunakan sebagai busana adat, pelengkap upacara, atau koleksi seni tradisional."
     },
     {
         id: 13,
@@ -125,9 +125,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/13.png",
         originProvince: "Bengkulu",
         originIsland: "Sumatra",
-        description: "Kulit Lantung adalah kerajinan tradisional dari Bengkulu yang dibuat dari kulit kayu atau kulit pohon tertentu, diolah menjadi bahan anyaman, hiasan, atau aksesori. Kerajinan ini melambangkan kreativitas, kearifan lokal, dan hubungan harmonis antara manusia dengan alam, serta sering digunakan dalam upacara adat atau sebagai souvenir budaya.",
+        description: "Kerajinan tradisional dari Bengkulu yang dibuat dari kulit kayu atau kulit pohon tertentu, diolah menjadi bahan anyaman, hiasan, atau aksesori. Kerajinan ini melambangkan kreativitas, kearifan lokal, dan hubungan harmonis antara manusia dengan alam, serta sering digunakan dalam upacara adat atau sebagai souvenir budaya.",
         materials: "Kulit pohon atau kulit kayu yang lentur, pisau atau gunting, alat penghalus permukaan, tali atau benang untuk mengikat, pewarna alami jika diperlukan",
-        process: "Proses pembuatan Kulit Lantung dimulai dengan memilih kulit kayu yang lentur dan berkualitas. Kulit kemudian dibersihkan, diiris, dan dihaluskan agar siap dianyam atau dibentuk. Selanjutnya kulit diikat atau dianyam sesuai pola yang diinginkan untuk membuat hiasan, aksesori, atau anyaman. Jika diperlukan, kulit dapat dicelup atau diwarnai menggunakan pewarna alami. Setelah selesai, produk dikeringkan dan diperiksa kualitasnya. Kulit Lantung siap digunakan sebagai kerajinan tangan, hiasan rumah, atau perlengkapan upacara adat."
+        process: "Bersihkan Kulit, diiris, dan dihaluskan agar siap dianyam atau dibentuk. Selanjutnya kulit diikat atau dianyam sesuai pola yang diinginkan untuk membuat hiasan, aksesori, atau anyaman. Jika diperlukan, kulit dapat dicelup atau diwarnai menggunakan pewarna alami. Setelah selesai, produk dikeringkan dan diperiksa kualitasnya. Kulit Lantung siap digunakan sebagai kerajinan tangan, hiasan rumah, atau perlengkapan upacara adat."
     },
     {
         id: 14,
@@ -135,9 +135,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/14.png",
         originProvince: "Bengkulu",
         originIsland: "Sumatra",
-        description: "Miniatur Dol adalah kerajinan tradisional khas Bengkulu yang menampilkan miniatur rumah adat atau bangunan khas daerah tersebut. Miniatur ini digunakan sebagai hiasan rumah, souvenir, atau media edukasi budaya, dan melambangkan kearifan lokal, identitas daerah, serta keindahan arsitektur tradisional Bengkulu.",
+        description: "Miniatur rumah adat atau bangunan khas daerah tersebut. Miniatur ini digunakan sebagai hiasan rumah, souvenir, atau media edukasi budaya, dan melambangkan kearifan lokal, identitas daerah, serta keindahan arsitektur tradisional Bengkulu.",
         materials: "Kayu, bambu, lem kayu atau perekat alami, cat atau pewarna alami, alat pemotong dan pahat, kuas atau alat hias tambahan",
-        process: "Proses pembuatan Miniatur Dol dimulai dengan pemilihan bahan kayu atau bambu yang berkualitas. Bahan kemudian dipotong dan dibentuk sesuai desain rumah adat atau bangunan yang akan dibuat. Bagian-bagian miniatur disambungkan menggunakan lem kayu atau perekat alami, lalu permukaannya dihaluskan. Selanjutnya, miniatur dihias dengan cat atau pewarna alami untuk menampilkan detail arsitektur dan motif tradisional. Setelah kering, miniatur siap digunakan sebagai hiasan rumah, souvenir, atau media edukasi budaya."
+        process: "Kayu dipotong dan dibentuk sesuai desain rumah adat atau bangunan yang akan dibuat. Bagian-bagian miniatur disambungkan menggunakan lem kayu atau perekat alami, lalu permukaannya dihaluskan. Selanjutnya, miniatur dihias dengan cat atau pewarna alami untuk menampilkan detail arsitektur dan motif tradisional. Setelah kering, miniatur siap digunakan sebagai hiasan rumah, souvenir, atau media edukasi budaya."
     },
     {
         id: 15,
@@ -157,7 +157,7 @@ const koleksiz = [
         originIsland: "Sumatra",
         description: "Kerajinan tanah liat khas Bengkulu adalah seni membuat berbagai benda seperti guci, patung, dan peralatan rumah tangga dari tanah liat. Kerajinan ini digunakan sebagai hiasan rumah, souvenir, atau perlengkapan adat, dan melambangkan kreativitas, ketelitian, serta identitas budaya masyarakat Bengkulu.",
         materials: "Tanah liat berkualitas, air, alat pembentuk (tangan, cetakan, atau roda putar), pisau atau alat ukir, cat atau pewarna alami, oven atau tungku untuk pembakaran",
-        process: "Proses pembuatan kerajinan tanah liat dimulai dengan memilih dan mengolah tanah liat agar lentur dan siap dibentuk. Tanah liat kemudian dibentuk menjadi guci, patung, atau peralatan sesuai desain menggunakan tangan, cetakan, atau roda putar. Setelah bentuk dasar selesai, detail dan motif diukir dengan pisau atau alat ukir. Selanjutnya, kerajinan dikeringkan dan dibakar dalam oven atau tungku untuk mengeras. Setelah itu, benda tanah liat dapat dicat atau diberi pewarna alami untuk finishing. Produk jadi siap digunakan sebagai hiasan rumah, souvenir, atau perlengkapan adat."
+        process: "Pertama, mengolah tanah liat agar lentur dan siap dibentuk. Tanah liat kemudian dibentuk menjadi guci, patung, atau peralatan sesuai desain menggunakan tangan, cetakan, atau roda putar. Setelah bentuk dasar selesai, detail dan motif diukir dengan pisau atau alat ukir. Selanjutnya, kerajinan dikeringkan dan dibakar dalam oven atau tungku untuk mengeras. Setelah itu, benda tanah liat dapat dicat atau diberi pewarna alami untuk finishing. Produk jadi siap digunakan sebagai hiasan rumah, souvenir, atau perlengkapan adat."
     },
     {
         id: 17,
@@ -165,9 +165,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/17.png",
         originProvince: "Riau",
         originIsland: "Sumatra",
-        description: "Anyaman Riau adalah kerajinan tradisional khas provinsi Riau yang dibuat dari bahan alami seperti rotan, pandan, atau bambu. Anyaman ini digunakan sebagai tikar, keranjang, wadah, atau hiasan rumah, dan melambangkan kreativitas, ketelitian, serta kearifan lokal masyarakat Riau dalam memanfaatkan sumber daya alam secara berkelanjutan.",
+        description: "Terbuat dari bahan alami seperti rotan, pandan, atau bambu. Anyaman ini digunakan sebagai tikar, keranjang, wadah, atau hiasan rumah, dan melambangkan kreativitas, ketelitian, serta kearifan lokal masyarakat Riau dalam memanfaatkan sumber daya alam secara berkelanjutan.",
         materials: "Rotan, pandan, atau bambu, pisau atau gunting untuk memotong bahan, tali atau benang untuk mengikat, alat penghalus permukaan, wadah untuk perendaman bahan",
-        process: "Proses pembuatan Anyaman Riau dimulai dengan pemilihan bahan rotan, pandan, atau bambu yang berkualitas, kemudian dibersihkan dan direndam agar lentur. Bahan dipotong sesuai ukuran yang diinginkan, lalu dianyam secara horizontal dan vertikal membentuk pola tertentu. Selama proses, tali atau benang digunakan untuk mengikat bagian-bagian agar anyaman kuat dan rapi. Setelah selesai dianyam, anyaman dikeringkan dan dipoles agar halus. Anyaman Riau siap digunakan sebagai tikar, keranjang, wadah, atau hiasan rumah."
+        process: "Siapkan rotan, pandan, atau bambu yang berkualitas, kemudian dibersihkan dan direndam agar lentur. Bahan dipotong sesuai ukuran yang diinginkan, lalu dianyam secara horizontal dan vertikal membentuk pola tertentu. Selama proses, tali atau benang digunakan untuk mengikat bagian-bagian agar anyaman kuat dan rapi. Setelah selesai dianyam, anyaman dikeringkan dan dipoles agar halus. Anyaman Riau siap digunakan sebagai tikar, keranjang, wadah, atau hiasan rumah."
     },
     {
         id: 18,
@@ -185,9 +185,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/19.png",
         originProvince: "Riau",
         originIsland: "Sumatra",
-        description: "Songket Riau adalah kain tenun tradisional khas provinsi Riau yang dihiasi benang emas atau perak membentuk motif geometris atau flora. Songket digunakan sebagai busana adat, pelengkap upacara, atau hiasan, dan melambangkan kemewahan, keanggunan, status sosial, serta identitas budaya masyarakat Riau.",
+        description: "Songket Riau dihiasi benang emas atau perak membentuk motif geometris atau flora. Songket digunakan sebagai busana adat, pelengkap upacara, atau hiasan, dan melambangkan kemewahan, keanggunan, status sosial, serta identitas budaya masyarakat Riau.",
         materials: "Benang katun atau sutra, benang emas atau perak, alat tenun tradisional (gedokan), jarum atau alat penyisip benang logam, pewarna alami atau sintetis",
-        process: "Proses pembuatan Songket Riau dimulai dengan pemilihan benang katun atau sutra berkualitas sebagai bahan dasar. Benang kemudian diwarnai sesuai motif yang diinginkan. Selanjutnya, benang emas atau perak disisipkan menggunakan alat khusus selama proses menenun di atas alat tenun tradisional (gedokan). Penyisipan benang logam dilakukan dengan hati-hati untuk membentuk pola geometris atau flora khas Riau. Setelah tenunan selesai, kain dirapikan dan permukaannya dihaluskan. Songket siap digunakan sebagai busana adat, pelengkap upacara, atau koleksi seni tradisional."
+        process: "Benang diwarnai sesuai motif yang diinginkan. Selanjutnya, benang emas atau perak disisipkan menggunakan alat khusus selama proses menenun di atas alat tenun tradisional (gedokan). Penyisipan benang logam dilakukan dengan hati-hati untuk membentuk pola geometris atau flora khas Riau. Setelah tenunan selesai, kain dirapikan dan permukaannya dihaluskan. Songket siap digunakan sebagai busana adat, pelengkap upacara, atau koleksi seni tradisional."
     },
     {
         id: 20,
@@ -197,7 +197,7 @@ const koleksiz = [
         originIsland: "Sumatra",
         description: "Batik Gonggong adalah kain tradisional khas Kepulauan Riau yang bercirikan motif kerang gonggong, flora, dan fauna laut. Batik ini digunakan sebagai busana adat, pakaian resmi, atau hiasan, dan melambangkan hubungan erat masyarakat Kepulauan Riau dengan laut, kreativitas, serta identitas budaya daerah setempat.",
         materials: "Kain katun atau sutra, malam (lilin) untuk membatik, canting atau cap batik, pewarna alami atau sintetis, wadah pencelupan, alat pengeringan",
-        process: "Proses pembuatan Batik Gonggong dimulai dengan pemilihan kain katun atau sutra berkualitas. Motif kerang gonggong dan hiasan laut digambar pada kain menggunakan canting atau cap batik dengan malam sebagai penahan warna. Kain kemudian dicelup ke dalam pewarna alami atau sintetis sesuai warna yang diinginkan. Proses pewarnaan dan penutupan lilin dapat dilakukan beberapa kali untuk menghasilkan motif berlapis. Setelah pewarnaan selesai, lilin dilelehkan atau dicuci, dan kain dijemur hingga kering. Batik Gonggong siap digunakan sebagai busana adat, pakaian resmi, atau koleksi seni tradisional."
+        process: "Motif kerang gonggong dan hiasan laut digambar pada kain menggunakan canting atau cap batik dengan malam sebagai penahan warna. Kain kemudian dicelup ke dalam pewarna alami atau sintetis sesuai warna yang diinginkan. Proses pewarnaan dan penutupan lilin dapat dilakukan beberapa kali untuk menghasilkan motif berlapis. Setelah pewarnaan selesai, lilin dilelehkan atau dicuci, dan kain dijemur hingga kering. Batik Gonggong siap digunakan sebagai busana adat, pakaian resmi, atau koleksi seni tradisional."
     },
     {
         id: 21,
@@ -207,7 +207,7 @@ const koleksiz = [
         originIsland: "Sumatra",
         description: "Tudung Manto adalah kain penutup kepala tradisional khas Kepulauan Riau yang biasanya dihiasi sulaman, bordir, atau motif khas daerah. Tudung ini digunakan dalam busana adat, upacara resmi, maupun acara keagamaan, dan melambangkan kesopanan, identitas budaya, serta status sosial pemakainya.",
         materials: "Kain katun, sutra, atau songket, benang bordir atau sulam, jarum, pola desain, hoop atau bingkai penahan kain",
-        process: "Proses pembuatan Tudung Manto dimulai dengan menyiapkan kain yang akan dihias dan memasangnya pada hoop atau bingkai agar kencang. Motif bordir atau sulaman digambar atau ditempel sebagai panduan. Benang kemudian dijahit mengikuti pola menggunakan teknik bordir atau sulam untuk menciptakan motif yang indah dan rapi. Setelah seluruh motif selesai, kain dibersihkan dari sisa pola atau tanda panduan. Tudung Manto siap digunakan sebagai pelengkap busana adat, upacara resmi, atau acara keagamaan."
+        process: "Siapkan kain dan pasang pada hoop atau bingkai agar kencang. Motif bordir atau sulaman digambar atau ditempel sebagai panduan. Benang kemudian dijahit mengikuti pola menggunakan teknik bordir atau sulam untuk menciptakan motif yang indah dan rapi. Setelah seluruh motif selesai, kain dibersihkan dari sisa pola atau tanda panduan. Tudung Manto siap digunakan sebagai pelengkap busana adat, upacara resmi, atau acara keagamaan."
     },
     {
         id: 22,
@@ -215,9 +215,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/22.png",
         originProvince: "Kepulauan Riau",
         originIsland: "Sumatra",
-        description: "Anyaman Pandan adalah kerajinan tradisional khas Kepulauan Riau yang dibuat dari daun pandan yang dianyam menjadi berbagai bentuk seperti tikar, keranjang, atau hiasan rumah. Anyaman ini melambangkan kreativitas, ketelitian, serta kearifan lokal masyarakat dalam memanfaatkan sumber daya alam secara berkelanjutan.",
+        description: "Kerajinan tradisional khas Kepulauan Riau yang dibuat dari daun pandan yang dianyam menjadi berbagai bentuk seperti tikar, keranjang, atau hiasan rumah. Anyaman ini melambangkan kreativitas, ketelitian, serta kearifan lokal masyarakat dalam memanfaatkan sumber daya alam secara berkelanjutan.",
         materials: "Daun pandan segar, pisau atau gunting untuk memotong daun, tali atau benang untuk mengikat, alat penghalus permukaan, wadah untuk perendaman daun",
-        process: "Proses pembuatan Anyaman Pandan dimulai dengan memilih daun pandan yang segar dan berkualitas, kemudian dibersihkan dan direndam agar lentur. Daun pandan dipotong sesuai ukuran yang diinginkan, lalu dianyam secara horizontal dan vertikal membentuk pola tertentu. Selama proses, tali atau benang digunakan untuk mengikat bagian-bagian agar anyaman kuat dan rapi. Setelah selesai dianyam, anyaman dikeringkan dan dipoles agar halus. Anyaman Pandan siap digunakan sebagai tikar, keranjang, wadah, atau hiasan rumah."
+        process: "Daun pandan dibersihkan dan direndam agar lentur. Daun pandan dipotong sesuai ukuran yang diinginkan, lalu dianyam secara horizontal dan vertikal membentuk pola tertentu. Selama proses, tali atau benang digunakan untuk mengikat bagian-bagian agar anyaman kuat dan rapi. Setelah selesai dianyam, anyaman dikeringkan dan dipoles agar halus. Anyaman Pandan siap digunakan sebagai tikar, keranjang, wadah, atau hiasan rumah."
     },
     {
         id: 23,
@@ -245,9 +245,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/25.png",
         originProvince: "Jambi",
         originIsland: "Sumatra",
-        description: "Gelang dan Kalung Sebelik Sumpah adalah perhiasan tradisional khas Jambi yang dibuat dari manik-manik, logam, atau bahan alami seperti kayu dan biji-bijian. Perhiasan ini digunakan sebagai aksesoris adat, simbol status sosial, atau pelengkap upacara tradisional, serta melambangkan identitas budaya, kepercayaan, dan nilai-nilai sosial masyarakat Jambi.",
+        description: "Gelang dan Kalung Sebelik Sumpah merupakan perhiasan adat khas Jambi yang sarat makna budaya. Terbuat dari manik-manik, logam, hingga biji-bijian alami, perhiasan ini tidak hanya berfungsi sebagai aksesori, tetapi juga sebagai simbol status sosial dan bagian penting dalam berbagai upacara adat. Keindahan dan maknanya mencerminkan identitas serta nilai-nilai spiritual masyarakat Jambi.",
         materials: "Manik-manik, logam atau kawat, kayu atau biji-bijian, benang atau tali pengikat, alat pengait atau peniti",
-        process: "Proses pembuatan Gelang dan Kalung Sebelik Sumpah dimulai dengan menyiapkan bahan-bahan seperti manik-manik, logam, dan kayu atau biji-bijian. Selanjutnya, bahan disusun dan dirangkai mengikuti pola atau desain tertentu menggunakan benang atau tali pengikat. Bagian pengait atau peniti dipasang agar gelang dan kalung dapat dikenakan dengan mudah. Setelah seluruh bagian dirangkai dengan rapi dan kuat, perhiasan siap digunakan sebagai aksesoris adat, simbol status sosial, atau pelengkap upacara tradisional."
+        process: "Pembuatan Gelang dan Kalung Sebelik Sumpah diawali dengan pemilihan bahan seperti manik-manik dan logam, kemudian disusun mengikuti pola tertentu menggunakan tali atau benang. Setiap elemen dirangkai dengan ketelitian tinggi hingga membentuk desain yang seimbang dan kuat. Setelah pengait dipasang, perhiasan ini siap digunakan dalam acara adat atau sebagai simbol kebanggaan budaya."
     },
     {
         id: 26,
@@ -255,9 +255,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/26.png",
         originProvince: "Jambi",
         originIsland: "Sumatra",
-        description: "Kerajinan Ketilon adalah kerajinan tradisional khas Jambi yang dibuat dari anyaman bambu atau rotan berbentuk alat rumah tangga, wadah, atau hiasan. Kerajinan ini melambangkan kreativitas, ketelitian, serta kearifan lokal masyarakat Jambi dalam memanfaatkan bahan alam secara fungsional dan estetis.",
+        description: "Kerajinan Ketilon mencerminkan kreativitas masyarakat Jambi dalam mengolah bambu dan rotan menjadi berbagai benda fungsional dan dekoratif. Setiap anyaman dibuat dengan penuh ketelitian dan menggambarkan kearifan lokal dalam memanfaatkan alam secara berkelanjutan.",
         materials: "Bambu atau rotan berkualitas, pisau atau gunting untuk memotong bahan, tali atau benang untuk mengikat, alat penghalus permukaan, wadah perendaman bahan",
-        process: "Proses pembuatan Kerajinan Ketilon dimulai dengan pemilihan bambu atau rotan yang berkualitas, dibersihkan, dan direndam agar lentur. Bahan kemudian dipotong sesuai ukuran dan dianyam membentuk keranjang, wadah, atau hiasan sesuai desain. Selama proses, tali atau benang digunakan untuk mengikat bagian-bagian agar anyaman kuat dan rapi. Setelah selesai, hasil anyaman dikeringkan dan dihaluskan. Kerajinan Ketilon siap digunakan sebagai peralatan rumah tangga, wadah, atau hiasan dekoratif."
+        process: "Proses pembuatan Kerajinan Ketilon dimulai dengan memilih bambu atau rotan yang baik, kemudian dibersihkan dan direndam agar lentur. Setelah itu, bahan dipotong sesuai ukuran dan dianyam menjadi berbagai bentuk seperti keranjang atau wadah. Setiap sambungan diikat kuat agar hasilnya rapi dan tahan lama, lalu dikeringkan dan dihaluskan untuk sentuhan akhir."
     },
     {
         id: 27,
@@ -265,9 +265,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/27.png",
         originProvince: "Lampung",
         originIsland: "Sumatra",
-        description: "Sulam Usus adalah kerajinan tradisional khas Lampung yang menggunakan benang halus untuk menghias kain dengan motif khas daerah. Sulaman ini biasanya diterapkan pada pakaian adat, taplak, atau hiasan rumah, dan melambangkan keindahan, ketelitian, serta identitas budaya masyarakat Lampung.",
+        description: "Sulam Usus adalah warisan kerajinan tangan khas Lampung yang menonjolkan keindahan motif hasil jahitan halus dengan benang warna-warni. Biasanya diterapkan pada pakaian adat, taplak, atau dekorasi rumah, karya ini menunjukkan ketelatenan dan cita rasa seni masyarakat Lampung.",
         materials: "Kain katun atau sutra, benang halus warna-warni, jarum sulam, pola desain, hoop atau bingkai penahan kain",
-        process: "Proses pembuatan Sulam Usus dimulai dengan menyiapkan kain dan memasangnya pada hoop atau bingkai agar kencang. Pola motif digambar atau ditempel pada kain sebagai panduan. Benang halus kemudian dijahit mengikuti pola menggunakan teknik sulam khusus untuk menciptakan motif yang rapi dan indah. Setelah seluruh motif selesai dijahit, kain dibersihkan dari sisa pola atau tanda panduan. Sulam Usus siap digunakan sebagai hiasan pakaian adat, taplak, atau dekorasi rumah."
+        process: "Tahapan pembuatan Sulam Usus dimulai dari menegangkan kain pada bingkai, kemudian pola digambar sebagai panduan. Benang dijahit mengikuti pola tersebut menggunakan teknik sulam khas hingga membentuk motif yang anggun. Setelah selesai, kain dibersihkan dari tanda pola dan siap dipakai atau dipajang."
     },
     {
         id: 28,
@@ -275,9 +275,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/28.png",
         originProvince: "Lampung",
         originIsland: "Sumatra",
-        description: "Anyaman Resam adalah kerajinan tradisional khas Lampung yang dibuat dari daun pandan atau rotan yang dianyam menjadi berbagai bentuk seperti tikar, keranjang, atau hiasan rumah. Anyaman ini melambangkan kreativitas, ketelitian, serta kearifan lokal masyarakat Lampung dalam memanfaatkan sumber daya alam secara berkelanjutan.",
+        description: "Anyaman Resam merupakan karya tangan tradisional Lampung yang menonjolkan keindahan dari bahan alami seperti daun pandan atau rotan. Produk ini sering dijadikan tikar, wadah, hingga hiasan rumah, mencerminkan keseimbangan antara fungsi dan estetika.",
         materials: "Daun pandan atau rotan, pisau atau gunting untuk memotong bahan, tali atau benang untuk mengikat, alat penghalus permukaan, wadah untuk perendaman bahan",
-        process: "Proses pembuatan Anyaman Resam dimulai dengan memilih daun pandan atau rotan berkualitas, dibersihkan dan direndam agar lentur. Bahan kemudian dipotong sesuai ukuran dan dianyam secara horizontal dan vertikal membentuk pola tertentu. Selama proses, tali atau benang digunakan untuk mengikat bagian-bagian agar anyaman kuat dan rapi. Setelah selesai dianyam, anyaman dikeringkan dan dipoles agar halus. Anyaman Resam siap digunakan sebagai tikar, keranjang, wadah, atau hiasan rumah."
+        process: "Pembuatan Anyaman Resam diawali dengan memilih daun pandan atau rotan yang telah direndam agar lentur. Bahan kemudian dipotong sesuai ukuran dan dianyam membentuk pola tradisional. Setiap simpul diikat rapi, lalu hasilnya dikeringkan dan dipoles agar halus dan awet digunakan."
     },
     {
         id: 29,
@@ -285,9 +285,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/29.png",
         originProvince: "Lampung",
         originIsland: "Sumatra",
-        description: "Bukhambak adalah kain bordir tradisional khas Lampung yang dihias dengan motif khas daerah menggunakan benang berwarna. Kain ini biasanya digunakan sebagai hiasan pakaian adat, taplak, atau aksesori, dan melambangkan keindahan, ketelitian, serta identitas budaya masyarakat Lampung.",
+        description: "Bukhambak adalah kain bordir tradisional asal Lampung yang menampilkan motif khas daerah melalui jahitan benang berwarna cerah. Kain ini kerap digunakan untuk menghiasi pakaian adat dan perlengkapan upacara, menjadi lambang keanggunan dan warisan budaya daerah.",
         materials: "Kain katun atau sutra, benang bordir warna-warni, jarum bordir, pola desain, hoop atau bingkai penahan kain",
-        process: "Proses pembuatan Bukhambak dimulai dengan menyiapkan kain dan memasangnya pada hoop atau bingkai agar kencang. Pola motif digambar atau ditempel pada kain sebagai panduan. Benang bordir dijahit mengikuti pola menggunakan teknik bordir untuk membentuk motif yang indah dan rapi. Setelah seluruh motif selesai dijahit, kain dibersihkan dari sisa pola atau tanda panduan. Bukhambak siap digunakan sebagai hiasan pakaian adat, taplak, atau aksesori tradisional."
+        process: "Proses pembuatannya dimulai dari menggambar pola pada kain, lalu benang dijahit mengikuti garis desain menggunakan teknik bordir manual. Warna dan tekstur dipadukan dengan cermat hingga menghasilkan motif khas Lampung yang menawan. Setelah selesai, kain dibersihkan dan siap digunakan."
     },
     {
         id: 30,
@@ -295,9 +295,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/30.png",
         originProvince: "Lampung",
         originIsland: "Sumatra",
-        description: "Kebung Tikhai adalah anyaman tradisional khas Lampung yang dibuat dari daun pandan atau rotan menjadi tikar, alas duduk, atau hiasan rumah. Anyaman ini melambangkan kreativitas, ketelitian, dan kearifan lokal masyarakat Lampung dalam memanfaatkan sumber daya alam secara fungsional dan estetis.",
+        description: "Kebung Tikhai merupakan anyaman tradisional masyarakat Lampung yang dibuat dari daun pandan atau rotan. Produk ini umumnya berbentuk tikar, alas duduk, atau dekorasi rumah dan mencerminkan ketekunan serta kecintaan terhadap lingkungan.",
         materials: "Daun pandan atau rotan, pisau atau gunting untuk memotong bahan, tali atau benang untuk mengikat, alat penghalus permukaan, wadah untuk perendaman bahan",
-        process: "Proses pembuatan Kebung Tikhai dimulai dengan pemilihan daun pandan atau rotan yang berkualitas, kemudian dibersihkan dan direndam agar lentur. Bahan dipotong sesuai ukuran dan dianyam secara horizontal dan vertikal membentuk pola tertentu. Selama proses, tali atau benang digunakan untuk mengikat bagian-bagian agar anyaman kuat dan rapi. Setelah selesai, anyaman dikeringkan dan dipoles agar halus. Kebung Tikhai siap digunakan sebagai tikar, alas duduk, atau hiasan rumah."
+        process: "Proses pembuatan Kebung Tikhai diawali dengan menyiapkan daun pandan atau rotan yang telah dibersihkan dan direndam agar lentur. Bahan kemudian dianyam mengikuti pola tradisional khas Lampung dengan simpul yang rapat dan rapi. Setelah selesai, anyaman dikeringkan dan dihaluskan hingga siap digunakan."
     },
     {
         id: 31,
@@ -305,9 +305,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/31.png",
         originProvince: "Bangka Belitung",
         originIsland: "Sumatra",
-        description: "Pewter adalah kerajinan logam khas Bangka Belitung yang biasanya dibuat menjadi perhiasan, wadah, atau hiasan rumah. Kerajinan ini melambangkan ketelitian, keindahan, dan identitas budaya masyarakat setempat.",
+        description: "Pewter merupakan karya logam khas Bangka Belitung yang diolah menjadi perhiasan, wadah, hingga hiasan rumah. Setiap karyanya mencerminkan ketelitian dan rasa estetika tinggi, menjadi bukti keterampilan pengrajin dalam mengolah timah yang banyak ditemukan di wilayah ini.",
         materials: "Logam timah murni, cetakan logam, alat pahat dan palu, perkakas finishing seperti amplas dan kuas",
-        process: "Proses pembuatan Pewter dimulai dengan mencairkan logam timah murni, kemudian dituangkan ke dalam cetakan sesuai bentuk yang diinginkan. Setelah dingin, logam dikeluarkan dari cetakan dan dibersihkan dari sisa penuangan. Selanjutnya dilakukan pemahatan dan penghalusan permukaan menggunakan alat pahat, palu, dan amplas. Tahap terakhir adalah finishing dan pewarnaan jika diperlukan, sehingga produk siap digunakan sebagai perhiasan, wadah, atau hiasan rumah."
+        process: "Pembuatan Pewter dimulai dengan melelehkan timah murni, lalu menuangkannya ke dalam cetakan sesuai desain. Setelah mengeras, logam dikeluarkan dan dibersihkan dari sisa penuangan. Tahap berikutnya dilakukan pemahatan serta penghalusan untuk memberi detail halus. Akhirnya, permukaan difinishing dan bisa diberi warna atau kilap tambahan sebelum siap dipasarkan."
     },
     {
         id: 32,
@@ -315,9 +315,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/32.png",
         originProvince: "Bangka Belitung",
         originIsland: "Sumatra",
-        description: "Kopiah Resam adalah penutup kepala tradisional khas Bangka Belitung yang dihiasi sulaman benang emas atau perak. Kopiah ini digunakan dalam upacara adat, pernikahan, atau acara resmi, dan melambangkan status sosial serta identitas budaya.",
+        description: "Kopiah Resam adalah penutup kepala tradisional khas Bangka Belitung yang kerap digunakan dalam acara adat atau pernikahan. Dihiasi dengan benang emas atau perak, kopiah ini melambangkan kehormatan, kemuliaan, serta identitas budaya daerah pesisir.",
         materials: "Kain katun atau sutra, benang emas atau perak, jarum sulam, pola desain, hoop atau bingkai penahan kain",
-        process: "Proses pembuatan Kopiah Resam dimulai dengan menyiapkan kain dasar dan memasangnya pada hoop atau bingkai agar kencang. Pola motif digambar atau ditempel sebagai panduan. Benang emas atau perak dijahit mengikuti pola menggunakan teknik sulam untuk menciptakan motif yang rapi dan indah. Setelah seluruh motif selesai, kain dibersihkan dari sisa pola dan siap digunakan sebagai penutup kepala adat."
+        process: "Pembuatan Kopiah Resam dimulai dari pemilihan kain dasar yang kuat namun lembut. Setelah itu, pola motif digambar di permukaannya. Benang emas atau perak dijahit mengikuti pola tersebut menggunakan teknik sulam halus. Proses ini membutuhkan ketelitian tinggi agar hasilnya simetris dan rapi. Setelah motif selesai, kain dibersihkan dan dijahit menjadi bentuk kopiah yang siap dikenakan."
     },
     {
         id: 33,
@@ -325,9 +325,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/33.png",
         originProvince: "Bangka Belitung",
         originIsland: "Sumatra",
-        description: "Akar Bahar adalah kerajinan atau bahan alami dari laut Bangka Belitung yang diolah menjadi aksesoris, perhiasan, atau hiasan dekoratif. Kerajinan ini melambangkan kreativitas dan hubungan masyarakat dengan lingkungan laut.",
+        description: "Akar Bahar dikenal sebagai bahan alami dari laut yang diolah menjadi berbagai perhiasan dan dekorasi khas Bangka Belitung. Selain keindahannya, bahan ini dipercaya memiliki nilai simbolis sebagai pelindung dan pembawa energi positif.",
         materials: "Akar bahar yang telah dikeringkan, benang atau kawat untuk merangkai, alat pemotong dan penghalus, bahan tambahan seperti manik-manik atau logam kecil",
-        process: "Proses pembuatan kerajinan Akar Bahar dimulai dengan memilih akar bahar berkualitas, kemudian dibersihkan dan dikeringkan. Selanjutnya akar diukir atau dipotong sesuai desain, lalu dirangkai dengan benang atau kawat jika dijadikan perhiasan atau hiasan. Tambahan manik-manik atau logam dapat disisipkan untuk mempercantik produk. Setelah selesai, kerajinan diperiksa kualitasnya dan siap digunakan sebagai aksesoris atau dekorasi."
+        process: "Proses pembuatan kerajinan Akar Bahar diawali dengan memilih bahan terbaik dari laut, lalu dibersihkan dan dikeringkan. Setelah kering, akar dibentuk atau diukir sesuai desain, kemudian dirangkai menggunakan kawat atau benang. Tambahan manik-manik atau logam sering disisipkan agar tampak lebih mewah. Setiap hasil akhir diperiksa untuk memastikan kekuatan dan keindahannya."
     },
     {
         id: 34,
@@ -335,9 +335,9 @@ const koleksiz = [
         image: "assets/Col_Sumatra/34.png",
         originProvince: "Bangka Belitung",
         originIsland: "Sumatra",
-        description: "Sumpet adalah kerajinan tradisional Bangka Belitung berupa alat musik atau wadah yang dibuat dari bambu atau rotan. Kerajinan ini melambangkan kreativitas, kearifan lokal, dan fungsi praktis dalam kehidupan sehari-hari.",
+        description: "Sumpet merupakan kerajinan serbaguna dari bambu atau rotan yang bisa berfungsi sebagai wadah, alat musik, atau perlengkapan tradisional. Karya ini menunjukkan kemampuan masyarakat Bangka Belitung dalam mengubah bahan alam sederhana menjadi benda bernilai guna tinggi.",
         materials: "Bambu atau rotan, pisau atau gergaji, tali atau benang untuk ikatan, alat penghalus permukaan",
-        process: "Proses pembuatan Sumpet dimulai dengan memilih bambu atau rotan berkualitas, kemudian dibersihkan dan dipotong sesuai ukuran. Bahan dianyam atau dibentuk menjadi wadah atau alat musik sesuai desain. Selama proses, tali atau benang digunakan untuk mengikat bagian-bagian agar kuat dan rapi. Setelah selesai, Sumpet dikeringkan dan dipoles agar halus, kemudian siap digunakan."
+        process: "Langkah pertama dalam membuat Sumpet adalah memilih bambu atau rotan yang cukup tua agar kuat. Bahan tersebut kemudian dibersihkan dan dipotong sesuai ukuran. Setelah dibentuk atau dianyam, setiap sambungan diikat menggunakan tali agar kokoh. Tahap akhir meliputi pengeringan dan pemolesan agar hasilnya halus dan tahan lama."
     },
     {
         id: 35,
@@ -345,9 +345,9 @@ const koleksiz = [
         image: "assets/Col_Kalimantan/35.png",
         originProvince: "Kalimantan Barat",
         originIsland: "Kalimantan",
-        description: "Tenun Sambas menampilkan motif khas daerah Sambas dengan warna-warna cerah yang mencerminkan keindahan alam dan budaya setempat. Kain ini sering digunakan sebagai busana adat, pelengkap upacara, atau hiasan rumah, sekaligus menjadi simbol identitas dan kreativitas masyarakat Sambas.",
+        description: "Tenun Sambas merupakan karya tenun tradisional yang menampilkan motif khas daerah Sambas. Warna-warnanya yang cerah menggambarkan keindahan alam Kalimantan Barat, sementara pola geometrisnya mencerminkan filosofi dan nilai kehidupan masyarakat setempat.",
         materials: "Benang katun atau sutra, pewarna alami atau sintetis, alat tenun tradisional (gedokan), jarum atau alat penyisip benang untuk motif tambahan",
-        process: "Proses pembuatan Tenun Sambas dimulai dengan pemilihan benang berkualitas yang kemudian diwarnai sesuai pola. Benang ditenun menggunakan alat tenun tradisional untuk membentuk motif geometris dan flora khas Sambas. Penyisipan benang emas atau perak dilakukan jika diperlukan untuk menambah keindahan motif. Setelah tenunan selesai, kain dirapikan, dijemur, dan dihaluskan agar siap digunakan sebagai busana adat atau hiasan rumah."
+        process: "Tahapan pembuatan Tenun Sambas dimulai dengan pemilihan benang terbaik yang kemudian diwarnai sesuai desain. Benang-benang itu ditenun secara manual menggunakan alat tradisional untuk menghasilkan motif khas. Kadang, pengrajin menambahkan benang emas atau perak agar kain tampak lebih megah. Setelah selesai, kain dijemur dan dihaluskan sebelum dipakai dalam upacara adat."
     },
     {
         id: 36,
@@ -355,9 +355,9 @@ const koleksiz = [
         image: "assets/Col_Kalimantan/36.png",
         originProvince: "Kalimantan Barat",
         originIsland: "Kalimantan",
-        description: "Kain Tenun Ikat Sintang menonjolkan motif ikat tradisional yang diwariskan turun-temurun oleh masyarakat Sintang. Tenun ini digunakan dalam acara adat, upacara resmi, maupun sebagai koleksi seni, serta melambangkan identitas budaya dan kearifan lokal masyarakat Kalimantan Barat.",
+        description: "Tenun Ikat Sintang adalah hasil karya turun-temurun dari masyarakat Sintang yang menonjolkan teknik ikat benang sebelum ditenun. Motifnya yang khas menjadi simbol identitas dan kebanggaan masyarakat Kalimantan Barat.",
         materials: "Benang katun atau sutra, pewarna alami atau sintetis, alat tenun tradisional (gedokan), alat penyisip benang logam jika diperlukan",
-        process: "Proses pembuatan Tenun Ikat Sintang dimulai dengan mempersiapkan benang dan mewarnainya sesuai motif ikat yang diinginkan. Benang kemudian ditenun di atas alat tenun tradisional, membentuk pola ikat yang khas. Beberapa motif dapat disisipkan dengan benang logam untuk menambah keindahan. Setelah tenunan selesai, kain dirapikan, dijemur, dan dihaluskan, sehingga siap digunakan sebagai busana adat atau hiasan seni."
+        process: "Pembuatan Tenun Ikat Sintang diawali dengan mengikat bagian-bagian tertentu dari benang sebelum diwarnai, agar membentuk motif saat ditenun. Setelah proses pewarnaan selesai, benang ditenun secara hati-hati di atas alat gedokan. Motifnya muncul perlahan dengan perpaduan warna alami yang menawan. Setelah rampung, kain dijemur, disetrika, dan siap digunakan dalam berbagai acara adat maupun fashion modern."
     },
     {
         id: 37,
