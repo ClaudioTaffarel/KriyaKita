@@ -68,11 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (userz) {
-        const navbarUsername = document.getElementById("navbarUsername");
-        if (navbarUsername) {
-        navbarUsername.textContent = userz.username;
-        }
-
         const detailUsername = document.getElementById("detailUsername");
         if (detailUsername) {
         detailUsername.textContent = userz.username;
